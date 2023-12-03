@@ -1,11 +1,40 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Desafio de Hidratação</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <script src="/controller/melhoriaSaude.js"></script>
+    <style>
+      .sobreNos {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body class="bg">
+    <main>
+      <section class="botao__voltar">
+        <a href="/view/index.html">
+          <img src="/assets/left-arrow.svg" />
+        </a>
+      </section>
+      <section class="sobreNos">
+        <h1 class="sobreNos__titulo">Desafio da Hidratação</h1>
+        <p>
+          Registre o número de copos de água que você bebe por dia:
+        </p>
+        <input type="number" placeholder="Copos d'água" id="coposAgua" class="sobreNos__input" />
+        <br/>
+        <button onclick="registrarHidratacao()" class="sobreNos__botao">
+          Registrar Hidratação
+        </button>
+        <p id="mensagemHidratacao"></p>
+      </section>
+    </main>
+  </body>
 </html>

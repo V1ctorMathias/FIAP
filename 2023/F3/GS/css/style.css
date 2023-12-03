@@ -13,6 +13,11 @@
     box-sizing: border-box;
 }
 
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
 body {
     height: 100vh;
     display: flex;
@@ -70,7 +75,7 @@ main {
     justify-content: center;
     align-items: center;
     gap: 100px;
-    padding: 0 30px;
+    padding: 30px 30px;
     margin: 0 50px;
     border-radius: 10px;
     transition: 0.3s;
@@ -86,6 +91,18 @@ main {
 main:hover {
     transform: scale(1.1);
     transition: 0.7s;
+}
+
+.botao__voltar {
+    position: absolute;
+    left: 30px;
+    top: 30px;
+    cursor: pointer;
+}
+
+img {
+    width: 30px;
+    height: 30px;
 }
 
 .sobreNos {
@@ -106,13 +123,43 @@ main:hover {
     font-weight: 700;
     font-size: 60px;
     line-height: 70px;
+    text-align: center;
 }
 
 .sobreNos__paragrafo {
-    padding-top: 27px;
     font-size: 20px;
     color: #B3B3B3;
 }
+
+.sobreNos__input {
+    text-align: center;
+    font-size: 40px;
+    padding: 25px 0;
+    width: 100%;
+    border: none;
+    border-radius: 10px 10px 0px 0px;
+    outline: 0;
+    border-bottom: 7px solid var(--cor-secundaria);
+  }
+
+  .sobreNos__botao {
+    width: 300px;
+    padding: 10px 0;
+    text-decoration: none;
+    border: 2px solid var(--cor-secundaria);
+    color: var(--cor-secundaria);
+    background-color: white;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 15px;
+    font-weight: 700;
+  }
+
+  .sobreNos__botao:hover {
+    background-color: var(--cor-secundaria);
+    color: white;
+    transition: 0.3s;
+  }
 
 .imagens {
     display: flex;

@@ -1,11 +1,36 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculadora de Vacinação</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <script src="/controller/transmissivel.js"></script>
+    <style>
+      .sobreNos {
+        display: flex;
+        align-items: center;
+      }
+    </style>
+  </head>
+  <body class="bg">
+    <main>
+      <section class="botao__voltar">
+        <a href="/view/index.html">
+          <img src="/assets/left-arrow.svg" />
+        </a>
+      </section>
+      <section class="sobreNos">
+        <h1 class="sobreNos__titulo">Calculadora de Vacinação</h1>
+        <input type="number" id="idade" placeholder="Idade (em meses)" class="sobreNos__input" />
+        <br />
+        <input type="number" id="vacinas" placeholder="Vacinas Recebidas" class="sobreNos__input" />
+        <br />
+        <button onclick="verificarVacinas()" class="sobreNos__botao">
+          Verificar Status de Vacinação
+        </button>
+        <p id="status"></p>
+      </section>
+    </main>
+  </body>
 </html>

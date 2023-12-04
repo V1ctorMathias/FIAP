@@ -21,6 +21,7 @@ input::-webkit-inner-spin-button {
 body {
     height: 100vh;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     background-color: var(--cor-primaria);
@@ -74,9 +75,8 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 100px;
     padding: 30px 30px;
-    margin: 0 50px;
+    margin: 10vh 50px;
     border-radius: 10px;
     transition: 0.3s;
     background: rgba(255, 255, 255, 0.2);
@@ -115,20 +115,19 @@ img {
 
 .sobreNos__subTitulo {
     font-weight: 200;
-    font-size: 30px;
+    font-size: 2vw;
     color: #707070;
 }
 
 .sobreNos__titulo {
     font-weight: 700;
-    font-size: 60px;
-    line-height: 70px;
+    font-size: 3vw;
     text-align: center;
 }
 
 .sobreNos__paragrafo {
-    font-size: 20px;
-    color: #B3B3B3;
+    font-size: 1.2vw;
+    color: #B3B3B3;margin-top: 20px;
 }
 
 .sobreNos__input {
@@ -140,26 +139,35 @@ img {
     border-radius: 10px 10px 0px 0px;
     outline: 0;
     border-bottom: 7px solid var(--cor-secundaria);
-  }
+}
 
-  .sobreNos__botao {
+.sobreNos__botoes {
+    display: flex;
+    width: 40vw;
+    gap: 5vw;
+    margin-top: 20px;
+}
+
+.sobreNos__botao {
     width: 300px;
-    padding: 10px 0;
+    padding: 1vh 0.5vw;
     text-decoration: none;
     border: 2px solid var(--cor-secundaria);
     color: var(--cor-secundaria);
     background-color: white;
     cursor: pointer;
     transition: 0.3s;
-    font-size: 15px;
+    font-size: 1vw;
     font-weight: 700;
-  }
+    margin-top: 10px;
+    text-align: center;
+}
 
-  .sobreNos__botao:hover {
+.sobreNos__botao:hover {
     background-color: var(--cor-secundaria);
     color: white;
     transition: 0.3s;
-  }
+}
 
 .imagens {
     display: flex;
@@ -174,8 +182,8 @@ img {
     flex-wrap: wrap;
     font-weight: 800;
     background-color: rgb(78, 206, 78);
-    width: 12.5rem;
-    height: 12.5rem;
+    width: 12.5vw;
+    height: 12.5vw;
     text-decoration: none;
     color: inherit;
     transition: 0.3s;
@@ -188,10 +196,10 @@ img {
 
 .imagens__botao__numeracao {
     display: flex;
-    height: 6.25rem;
-    width: 12.5rem;
-    font-size: 4.375rem;
-    padding: 0px 1.25rem;
+    height: 6.25vw;
+    width: 12.5vw;
+    font-size: 4.375vw;
+    padding: 0 1.25vw;
 }
 
 .imagens__botao__conteudo {
@@ -199,10 +207,10 @@ img {
     justify-content: right;
     align-items: center;
     text-align: right;
-    font-size: 1.5em;
-    height: 6.25rem;
-    width: 12.5rem;
-    padding: 0px 185px;
+    font-size: 1.5vw;
+    height: 6.25vw;
+    width: 12.5vw;
+    padding: 0px 11.5vw;
 }
 
 .btn1 {
@@ -223,4 +231,10 @@ img {
 
 .imagens__botao span {
     color: #FFF;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    height: 10vh;
 }

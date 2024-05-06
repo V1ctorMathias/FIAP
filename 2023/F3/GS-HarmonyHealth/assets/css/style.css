@@ -110,7 +110,6 @@ img {
     justify-content: center;
     flex-direction: column;
     width: 40vw;
-    height: 50vh;
 }
 
 .sobreNos__subTitulo {
@@ -157,7 +156,7 @@ img {
     background-color: white;
     cursor: pointer;
     transition: 0.3s;
-    font-size: 1vw;
+    font-size: 1.2vw;
     font-weight: 700;
     margin-top: 10px;
     text-align: center;
@@ -186,12 +185,12 @@ img {
     height: 12.5vw;
     text-decoration: none;
     color: inherit;
-    transition: 0.3s;
+    transition: 0.5s;
 }
 
 .imagens__botao:hover {
     transition: 0.3s;
-    background-color: var(--cor-secundaria);
+    box-shadow: 0.5vw 0.5vw var(--cor-secundaria);
 }
 
 .imagens__botao__numeracao {

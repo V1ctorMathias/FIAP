@@ -4,8 +4,8 @@
 /* Variaveis de cor */
 :root {
     /* cores de fundo */
-    --background-color-primario: #F2F1EF;
-    --background-color-secundario: #D6DBD7;
+    --background-color-primario: #c2c2c27e;
+    --background-color-secundario: #ffffff;
     /* fontes*/
     --fonte-padrao: "Roboto", sans-serif;
 }
@@ -27,12 +27,13 @@ body {
 
 /* Cabecalho */
 .cabecalho {
-    height: 15%;
+    background-color: var(--background-color-primario);
+    height: 10%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    justify-content: space-evenly;
+    font-size: 1.25rem;
 }
 
 /* Navegacao */
@@ -53,21 +54,76 @@ li a {
     color: inherit;
 }
 
+li a:hover {
+    font-weight: bold;
+}
+
 /* SobreNos */
 .sobreNos {
+    background-color: var(--background-color-primario);
     width: 100%;
-    height: 85%;
+    height: 90%;
     display: flex;
+    flex-direction: row-reverse;
     align-items: center;
     justify-content: center;
     padding: 0 10%;
     gap: 5%;
 }
 
+.sobreNos__texto__titulo {
+    font-size: 4rem;
+    line-height: 70px;
+    font-weight: 400;
+}
+
+.sobreNos__botoes {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.sobreNos__botoes__botao {
+    height: 50px;
+    width: 200px;
+    color: #FFF;
+    background-color: #252525;
+    border: none;
+    font-size: 1.25rem;
+    cursor: pointer;
+    border: 3px solid #252525;
+    transition: 0.2s;
+}
+
+.sobreNos__botoes__link {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.sobreNos__botoes__link:hover {
+    transform: scale(1.1);
+}
+
+.sobreNos__botoes__botao:hover {
+    background: none;
+    color: black
+}
+
+.sobreNos__imagem img {
+    -webkit-box-shadow: 15px 15px 0px -4px rgb(0, 0, 0);
+    -moz-box-shadow: 15px 15px 0px -4px rgb(0, 0, 0);
+    box-shadow: 15px 15px 0px -4px rgb(0, 0, 0);
+    transition: 0.2s;
+}
+
+.sobreNos__imagem img:hover {
+    box-shadow: 15px 15px 0px 2px rgb(0, 0, 0);
+}
+
 /* Dimensoes da imagem em diferentes tamanhos de tela */
 @media (min-width: 1061px) {
     .sobreNos__imagem {
-        width: 25%;
+        width: 50%;
     }
 }
 
@@ -75,6 +131,7 @@ li a {
     .sobreNos__imagem {
         width: 30%;
     }
+
     .sobreNos {
         flex-direction: column;
         padding: 0%;
@@ -82,25 +139,55 @@ li a {
 }
 
 @media (max-width: 588px) {
-    .cabecalho{
+    .cabecalho {
         height: 10%;
     }
-    .sobreNos{
+
+    .sobreNos {
         height: 90%;
     }
+
     .sobreNos__imagem {
         display: none;
     }
+
     .sobreNos {
         flex-direction: row;
         padding: 0%;
     }
+
+    .sobreNos__texto__paragrafoTres {
+        display: none;
+    }
+}
+
+@media (max-width: 480px) {
+    .cabecalho {
+        height: 10%;
+        gap: 40%;
+    }
+
+    .sobreNos {
+        height: 90%;
+    }
+
+    .sobreNos__imagem {
+        display: none;
+    }
+
+    .sobreNos__texto__paragrafoDois {
+        display: none;
+    }
+
     .sobreNos__texto__paragrafoTres {
         display: none;
     }
 }
 
 .sobreNos__texto {
+    display: flex;
+    flex-direction: column;
+    gap: 3.5vh;
     width: 50%;
     line-height: 2rem;
     font-size: 1rem;
@@ -116,4 +203,54 @@ li a {
     justify-content: center;
     gap: 10px;
     background-color: var(--background-color-secundario);
+}
+
+.sobreEles__quadro {
+    width: 50%;
+    height: 50%;
+    background-color: #252525;
+}
+
+iframe {
+    position: absolute;
+    left: 22.5vw;
+    top: 122vh;
+}
+
+.sobreEles__texto {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: #FFF;
+    width: 20%;    
+    float: right;
+    padding-top: 7%;
+    padding-right: 10px;
+}
+
+.sobreEles__texto p {
+    line-height: 35px;
+}
+
+.sobreEles__titulo {
+    position: absolute;
+    top: 105vh;
+    font-size: 3rem;
+    font-weight: 300;
+    font-style: italic;
+    width: 300px;
+    height: 90px;
+    background-color: #252525;
+    text-align: center;
+    color: #FFF;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 7%;
+    background-color:#252525;
+    color: #FFF;
 }

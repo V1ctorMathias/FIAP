@@ -222,7 +222,7 @@ iframe {
     flex-direction: column;
     gap: 20px;
     color: #FFF;
-    width: 20%;    
+    width: 20%;
     float: right;
     padding-top: 7%;
     padding-right: 10px;
@@ -245,12 +245,21 @@ iframe {
     color: #FFF;
 }
 
+.projeto {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--background-color-primario);
+}
+
 footer {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
     height: 7%;
-    background-color:#252525;
+    background-color: #252525;
     color: #FFF;
 }

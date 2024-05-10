@@ -1,6 +1,6 @@
 // REFERENTE AO CONSUMO
 const url = "https://api-stg-catalogo.redeancora.com.br/superbusca/api/integracao/catalogo/v2/produtos/query/sumario";
-const token = "eyJhbGciOiJSUzI1NiIsImtpZCI6IkRFQkJDQUJBMjIwQjRGOTVDOTA5NTNFMURBMTlENEUzQzFDRDFGRDciLCJ0eXAiOiJhdCtqd3QiLCJ4NXQiOiIzcnZLdWlJTFQ1WEpDVlBoMmhuVTQ4SE5IOWMifQ.eyJuYmYiOjE3MTUyMTc2NjIsImV4cCI6MTcxNTMwNDA2MiwiaXNzIjoiaHR0cHM6Ly9zc28tY2F0YWxvZ28ucmVkZWFuY29yYS5jb20uYnIiLCJhdWQiOiJTZWFyY2hFbmdpbmVBcGkuc3RnIiwiY2xpZW50X2lkIjoiNjV0dmg2cnZuNGQ3dWVyM2hxcW0ycDhrMnB2bm01d3giLCJyb2xlIjoicmVhZCIsInNjb3BlIjpbInNlYXJjaGVuZ2luZWFwaS5zdGciXX0.j_6T-aGDge8VxQTuTOLAk0ZATkLSAq5b77jypeJMI75hDEYqlwNgPS-aBKETUREP-PW6YcTNRv7eMf-abwjNVj6t8Ik-ZXe80foZw_Mpqv10mB4MpLTMT2dvhoN4Hhfh4AUK8NwuB51xOSn-pz-1wvwathRTo0jOA4_Sy5705VN6pLZvfJN5VZrPCetl2OhAH-dTKm7wx1VgL4hEs6dKUc2449zW7ModI8Gpwbten4fvN57aOP7gqa0J3dVXm9BObEZj2-RJ6HvHuJQoNDPmrFt-XyklO6T5Q2w3RetFIi54mLFPExdnTnjry-5krp5IyzC9vDrNl6bBo9_iVjToeNkEP3-VaJed5D9CJLrDh_ZDVdwwOfeoMWIaLI5e0E4aln3166UCC8oOv0L1kgLhzRBFT8gz5ji6bvkT0niDMqjma2sr8wxzs3ILEwVVm8OaKvdEw3PGSXqHvSBhmJb8E5071f0LCQLKrKgI-JLgzOp7TH5xtoqBytRls2r2Ukuty68Wtj3aHYGr7bpCVhVVUIoWgHx1-b-biqF_0VCrnu8P3wVQZ1rf3RlnVf8zLBxdzn0nE2Ow-CD5Oa8pMJb2-HFasStJQvVUqKlSngtK5NaSz4f6x-7wBUG04MNZ0K8beDad7DWowLsUmpzqnfoX8qdCg8LQWXcXkYd3YkhTqDo";
+const token = "eyJhbGciOiJSUzI1NiIsImtpZCI6IkRFQkJDQUJBMjIwQjRGOTVDOTA5NTNFMURBMTlENEUzQzFDRDFGRDciLCJ0eXAiOiJhdCtqd3QiLCJ4NXQiOiIzcnZLdWlJTFQ1WEpDVlBoMmhuVTQ4SE5IOWMifQ.eyJuYmYiOjE3MTUzMDgyNDAsImV4cCI6MTcxNTM5NDY0MCwiaXNzIjoiaHR0cHM6Ly9zc28tY2F0YWxvZ28ucmVkZWFuY29yYS5jb20uYnIiLCJhdWQiOiJTZWFyY2hFbmdpbmVBcGkuc3RnIiwiY2xpZW50X2lkIjoiNjV0dmg2cnZuNGQ3dWVyM2hxcW0ycDhrMnB2bm01d3giLCJyb2xlIjoicmVhZCIsInNjb3BlIjpbInNlYXJjaGVuZ2luZWFwaS5zdGciXX0.Ai0b0tQW8nXpW_7ENpEpEShCCCtfGSVVwE_kIJZtHxYxlQSfgCeTrBlobSTc39xIQ3XGD0D98Plabsjloby3UQvfUXJi7QSOFmfKxDORxJ7syk9M0T3iWCz6tEuWWRjuCE7KtPvpvK47R921Sf8DhM5N_zo0DRfx_YjCxdlSsU5DLEtb49cib3WFC-bQNNnapf5gxWlIawkm1lPPsvmT7HpSmYnrXooFGIhD8acKqLQIztVBH6TViVr5IKn9d4M92hj89-C3xAeueosd8ZIfMdqu2pcXeSjjkjCiqse73Y9ZrGitkRnBpYiBGJXbFtScArWHNFSOfRIJyYuQz_4AOHSHR3Hs-bbJmjvlSwGxkLoKXdrzEny89wU05eytRIUQUFCpfzOTyCIxG1CM12HjqDMT_LJnZNjljU-SUOTnHLAstAhG8fRkVdZsdDWZEfyv-olP_SclxlpKEurhx1DnudsKcJTsSGJWu6xGs1vplpo3kZVUCiGI2SRN9GgLszMRUqYcB5bTVaXDWxYFPqYCu-ytzK2u9xKY1jkyoF0GnAKrneedwr4cYGnQ-z6Gfs-41p8QimSpurex0ZYISADlQUXk9bVQebjN4bY1NSA4_3PPveMX2INJLiHmv14TfeoV556Xmsj2fxILNfQcaSx8it1jcRXSeHgY2-mXGE1SV3w";
 const tokenType = "Bearer";
 
 // CAPTURA DOS OBJETOS DO HTML
@@ -17,7 +17,7 @@ async function buscarProduto(pesquisa) {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",
-                Authorization: `${tokenType} ${token}`,
+                Authorization: `${tokenType} ${token}`
             },
             body: JSON.stringify({
                 veiculoFiltro: {
@@ -35,6 +35,7 @@ async function buscarProduto(pesquisa) {
             lstOpcoes.push(item)
         }
         console.log("Resposta da solicitação:", lstOpcoes);
+        mostrarOpcoes();
     } catch (error) {
         console.error("Erro ao fazer a solicitação:" + error);
     }
@@ -48,13 +49,20 @@ function mostrarOpcoes() {
     if (lstOpcoes.length > 0) {
         for (let i of lstOpcoes) {
             count += 1;
-            listaOpcoes.innerHTML += `<div${count}>${i['cna']}</div>`;
+            listaOpcoes.innerHTML +=
+                `<div class="div${count}">
+                <div class="card">
+                    <img src="https://catalogopdtstorage.blob.core.windows.net/imagens-prd/produto/${i['imagemReal']}"/>
+                    <span>${i['nomeProduto']}</span>
+                </div>
+            </div>`;
         }
+    } else {
+        listaOpcoes.innerHTML = "<h1>Sua busca não houve retorno!</h1>"
     }
 }
 
 formulario.addEventListener('submit', (e) => {
     buscarProduto(inputBuscar.value);
-    mostrarOpcoes();
     e.preventDefault();
 })

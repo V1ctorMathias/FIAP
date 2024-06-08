@@ -9,6 +9,9 @@ const inputBuscar = document.querySelector('#inputBuscar');
 const listaOpcoes = document.querySelector('.produtos')
 
 lstOpcoes = [];
+lstTextos = [];
+
+
 
 // CONSULTA DA API
 async function buscarProduto(pesquisa) {
@@ -50,13 +53,25 @@ function mostrarOpcoes() {
         for (let i of lstOpcoes) {
             count += 1;
             listaOpcoes.innerHTML +=
-                `<div class="div${count}">
-                <div class="card">
+                `<div class="div${count}"'>
+                <div class="card" id="${i['id']}">
                     <img src="https://catalogopdtstorage.blob.core.windows.net/imagens-prd/produto/${i['imagemReal']}"/>
-                    <span>${i['nomeProduto']}</span>
+                    <span class="span${count}">${i['nomeProduto']}</span>
+                    <button onclick="">Comprar</button>
                 </div>
             </div>`;
+            // lstTextos.push(`span${count}`)
         }
+        const divs = document.querySelectorAll('.card');
+        divs.forEach(div => {
+            div.addEventListener('click', () => {
+                const span = div.querySelector('span');
+                const texto = span.textContent;
+                console.log(texto);
+                adicionarCarrinho(div);
+            });
+        });
+
     } else {
         listaOpcoes.innerHTML = "<h1>Sua busca não houve retorno!</h1>"
     }
@@ -66,3 +81,9 @@ formulario.addEventListener('submit', (e) => {
     buscarProduto(inputBuscar.value);
     e.preventDefault();
 })
+
+
+function adicionarCarrinho (obj) {
+    let id = obj.getAttribute("id");
+    alert(id);
+}

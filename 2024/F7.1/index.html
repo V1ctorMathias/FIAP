@@ -1,49 +1,154 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>index</title>
-    <link rel="stylesheet" href="./style.css" />
-  </head>
-  <body>
-    <nav>
-      <div class="logo">
-        <img height="50px" src="./assets/ocean-svgrepo-com.svg" />
-      </div>
-      <div class="nav__itens">
-        <ul>
-          <li>sla1</li>
-          <li>sla2</li>
-          <li>sla3</li>
-          <li>sla4</li>
-        </ul>
-      </div>
-      <a class="nav__link" href="#">Ver video</a>
-    </nav>
-
-    <section class="apresentacao">
-      <div class="apresentacao__legenda">
-        <h1>
-          Levando Inovação<br />
-          Aos Mares.
-        </h1>
-        <h2>
-          Trabalho realizado por<br />
-          João Pedro Coelho Maran<br />
-          Victor Mathias Pereira Porto
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Problemas Ambientais: Poluição dos Oceanos</title>
+    <link rel="stylesheet" href="./style.css">
+    <script defer src="./script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Poluição dos Oceanos</h1>
+        <p>Entenda os problemas e como podemos solucioná-los</p>
+    </header>
+  
+    <div id="apresentacao">
+      <section class="participantes" style=" padding: 0;">
+        <h2 style="margin-left: 20px;">
+          Participantes:
         </h2>
-      </div>
-      <div class="apresentacao__img">
-        <img
-          src="./assets/1000_F_509504646_QMQZLdgBlS4EVYPvIwKE5K0JmQhDg9ho.jpg"
-          style="border-radius: 5px 5px 0px 0px"
-          alt="imagem de apresentação"
-        />
-      </div>
-      <div class="apresentacao__img__footer">
-        nossa inovação blablaba dasdas
-      </div>
+        <p style="margin-left: 20px;">João Pedro Coelho Maran</p>
+        <p style="margin-left: 20px;">Victor Mathias Pereira Porto</p>
+      
+          <img src="./assets/pngwing.com (6).png" style="width: 100%; background-color: white; border-radius: 8px;">
+        
+      </section>
+      <section class="pitch">
+        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/htiesAKzsc4" title="5 de junho de 2024" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </section>
+    </div>
+    
+    
+        
+      
+    <section id="problemas">
+        <h2>Problemas a Serem Tratados</h2>
+        <ul>
+            <li>
+                Resíduos de plásticos ingeridos por animais marinhos
+                <button class="toggle-details">Ver mais</button>
+                <p class="details">Os plásticos descartados acabam sendo ingeridos por diversas espécies marinhas, como peixes, tartarugas e aves. Isso causa bloqueios digestivos, intoxicações e, muitas vezes, a morte desses animais.</p>
+            </li>
+            <li>
+                Acúmulo de plásticos na cadeia alimentar
+                <button class="toggle-details">Ver mais</button>
+                <p class="details">Os microplásticos, fragmentos minúsculos de plástico, são ingeridos por pequenos organismos marinhos. Estes, por sua vez, são comidos por predadores maiores, fazendo com que os plásticos se acumulem em toda a cadeia alimentar, afetando todos os níveis tróficos.</p>
+            </li>
+            <li>
+                Problemas de saúde e morte de animais marinhos
+                <button class="toggle-details">Ver mais</button>
+                <p class="details">A ingestão de plásticos não só bloqueia o sistema digestivo dos animais, mas também libera substâncias químicas tóxicas no organismo, causando doenças e frequentemente levando à morte.</p>
+            </li>
+            <li>
+                Impactos diretos na saúde humana devido à contaminação de frutos do mar
+                <button class="toggle-details">Ver mais</button>
+                <p class="details">Frutos do mar contaminados com microplásticos e outras substâncias tóxicas podem acabar no prato das pessoas, representando riscos à saúde, incluindo problemas digestivos e intoxicações.</p>
+            </li>
+            <li>
+                Riscos de saúde devido à presença de patógenos na água
+                <button class="toggle-details">Ver mais</button>
+                <p class="details">A poluição dos oceanos não se limita ao plástico. Substâncias químicas e patógenos também contaminam a água, representando riscos sérios à saúde humana, como doenças infecciosas e problemas respiratórios.</p>
+            </li>
+            <li>
+                80% da poluição plástica nos oceanos é transportada através dos rios
+                <button class="toggle-details">Ver mais</button>
+                <p class="details">A maior parte dos resíduos plásticos que chegam aos oceanos são transportados por rios. Identificar e interceptar esses resíduos antes que cheguem ao mar é crucial para mitigar a poluição oceânica.</p>
+            </li>
+        </ul>
     </section>
-  </body>
+    
+    <section id="estudos">
+        <h2>Estudos que Evidenciam os Problemas</h2>
+        <ul>
+            <li>
+                Estudos mostram que os resíduos plásticos são ingeridos por uma ampla variedade de animais marinhos.
+                <button class="toggle-details">Ver mais</button>
+                <p class="details">Pesquisas realizadas em diversas partes do mundo documentam que peixes, tartarugas, aves marinhas e até mamíferos marinhos ingerem plásticos, confundindo-os com alimentos.</p>
+            </li>
+            <li>
+                Pesquisas indicam que os microplásticos podem se acumular na cadeia alimentar, afetando a saúde humana.
+                <button class="toggle-details">Ver mais</button>
+                <p class="details">Estudos recentes mostram que microplásticos foram encontrados em muitos organismos marinhos que são consumidos por humanos, indicando uma possível transferência de microplásticos para a dieta humana.</p>
+            </li>
+            <li>
+                Relatórios ambientais identificam que a maior parte dos plásticos que acabam nos oceanos são transportados por rios.
+                <button class="toggle-details">Ver mais</button>
+                <p class="details">Relatórios da ONU e de outras organizações ambientais destacam que os rios são as principais rotas de transporte de resíduos plásticos para os oceanos, com alguns rios sendo responsáveis por transportar grandes quantidades de plástico.</p>
+            </li>
+        </ul>
+        <img src="./assets/06-existem-170-trilhoes-de-pedacos-de-lixo-plastico-nos-oceanos-grafico-1.png" width="500px"/>
+    </section>
+    
+    <section id="solucao">
+        <h2>Solução Proposta</h2>
+        <ul>
+            <li>
+                Desenvolvimento de barreiras em locais estratégicos nos rios para remover a poluição plástica antes de atingir os oceanos.
+                <button class="toggle-details">Ver mais</button>
+                <p class="details">Essas barreiras seriam instaladas em pontos críticos dos rios, onde a concentração de resíduos é maior, permitindo a coleta eficiente de plásticos antes que cheguem aos oceanos.</p>
+            </li>
+            <li>
+                Instalação de placas solares sobre as barreiras para gerar energia renovável.
+                <button class="toggle-details">Ver mais</button>
+                <p class="details">Aproveitar a estrutura das barreiras para instalar placas solares é uma solução inovadora que maximiza o uso do espaço e contribui para a geração de energia limpa.</p>
+            </li>
+            <li>
+                Venda de energia solar para a população, governo, indústrias e outros setores.
+                <button class="toggle-details">Ver mais</button>
+                <p class="details">A energia solar gerada pode ser vendida a preços competitivos, oferecendo uma alternativa sustentável e econômica à energia tradicional.</p>
+            </li>
+            <li>
+                Geração de receita adicional através da venda dos materiais recicláveis removidos das águas.
+                <button class="toggle-details">Ver mais</button>
+                <p class="details">Os resíduos plásticos coletados pelas barreiras podem ser reciclados e vendidos, transformando o lixo em uma fonte de renda e promovendo a economia circular.</p>
+            </li>
+        </ul>
+    </section>
+    
+    <section id="modelo-receita">
+        <h2>Modelos de Receita e Diferenciais Competitivos</h2>
+        <ul>
+            <li>
+                Venda de energia solar gerada pelas barreiras.
+                <button class="toggle-details">Ver mais</button>
+                <p class="details">A energia solar produzida será uma fonte contínua de receita, aproveitando o crescente mercado de energia renovável.</p>
+            </li>
+            <li>
+                Venda de materiais recicláveis recuperados das águas.
+                <button class="toggle-details">Ver mais</button>
+                <p class="details">O plástico coletado será processado e vendido para a indústria de reciclagem, criando uma nova cadeia de valor a partir dos resíduos.</p>
+            </li>
+            <li>
+                Contratos de manutenção e operação das barreiras.
+                <button class="toggle-details">Ver mais</button>
+                <p class="details">Oferecemos serviços de manutenção e operação das barreiras, garantindo sua eficiência e durabilidade ao longo do tempo.</p>
+            </li>
+            <li>
+                Possíveis parcerias e subsídios governamentais para projetos de sustentabilidade.
+                <button class="toggle-details">Ver mais</button>
+                <p class="details">Buscaremos parcerias com governos e ONGs, além de subsídios para projetos de sustentabilidade, visando apoio financeiro e expansão das operações.</p>
+            </li>
+            <li>
+                Integração de soluções: limpeza dos oceanos e geração de energia sustentável.
+                <button class="toggle-details">Ver mais</button>
+                <p class="details">Nosso diferencial é a combinação de duas soluções críticas: a remoção de plásticos dos oceanos e a geração de energia limpa, proporcionando benefícios ambientais e econômicos significativos.</p>
+            </li>
+        </ul>
+    </section>
+    
+    <footer>
+        <p>© 2024 Protegendo os Oceanos. Todos os direitos reservados.</p>
+    </footer>
+</body>
 </html>

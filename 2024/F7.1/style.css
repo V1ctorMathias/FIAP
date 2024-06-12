@@ -1,4 +1,11 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
+    width: 100%;
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
@@ -94,6 +101,10 @@ footer {
     bottom: 0;
 }
 
+.details {
+    display: none;
+}
+
 @media (max-width: 887px) {
     #estudos img {
         width: 300px;
@@ -106,6 +117,18 @@ footer {
     }
 }
 
+@media (max-width: 887px) {
+    #solucao img {
+        width: 300px;
+    }
+}
+
+@media (max-width: 630px) {
+    .participantes {
+        width: 75%;
+    }
+}
+
 @media (max-width: 630px) {
     #apresentacao {
         display: flex;
@@ -113,6 +136,6 @@ footer {
     }
 
     .pitch {
-        width: 100%;
+        width: 80%;
     }
 }

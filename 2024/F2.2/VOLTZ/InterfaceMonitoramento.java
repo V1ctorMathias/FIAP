@@ -2,11 +2,18 @@ import java.util.Scanner;
 
 public class InterfaceMonitoramento {
 
-    Scanner sc = new Scanner(System.in);
-
-    Relatorio relatorio = new Relatorio();
-
+    private Scanner sc = new Scanner(System.in);
+    private Relatorio relatorio = new Relatorio();
     private double valorFinal = 0;
+
+    // Getter e Setter para valorFinal
+    public double getValorFinal() {
+        return valorFinal;
+    }
+
+    public void setValorFinal(double valorFinal) {
+        this.valorFinal = valorFinal;
+    }
 
     public void exibirDados(int tamanhoLista, double[] cotacao, double valorInicial, int tipoAlerta) {
 
@@ -28,12 +35,10 @@ public class InterfaceMonitoramento {
                 this.relatorio.relatorio(valorFinal, i);
             }
         }
-
     }
 
     private void alertaPersonalizado(double valorInicial, double valorFinal, int tipoAlerta) {
         Alerta alerta = new Alerta();
         alerta.alerta(valorInicial, valorFinal, tipoAlerta);
     }
-
 }

@@ -5,15 +5,15 @@ public class IntegracaoContas {
     private int contador = 0;
 
     public void adicionarConta(String empresa) {
-        this.empresa.nomeEmpresa = empresa;
-        this.empresa.identificador = contador;
+        this.empresa.setNomeEmpresa(empresa);
+        this.empresa.setIdentificador(contador);
         this.contador ++;
-        System.out.println("Empresa: "+this.empresa.nomeEmpresa+" adicionada com sucesso!");
+        System.out.println("Empresa: "+this.empresa.getNomeEmpresa()+" adicionada com sucesso!");
     }
     
     public void removerConta() {
-        System.out.println("Empresa: "+this.empresa.nomeEmpresa+" removida com sucesso!");
-        this.empresa.nomeEmpresa = "";
+        System.out.println("Empresa: "+this.empresa.getNomeEmpresa()+" removida com sucesso!");
+        this.empresa.setNomeEmpresa("");
     }
 
 }

@@ -14,7 +14,6 @@ public class Usuario {
 
     private Seguranca seguranca = new Seguranca();
 
-    // Getters e Setters para estaLogado
     public boolean isEstaLogado() {
         return estaLogado;
     }
@@ -23,7 +22,6 @@ public class Usuario {
         this.estaLogado = estaLogado;
     }
 
-    // Getters e Setters para usuario
     public String getUsuario() {
         return usuario;
     }
@@ -32,7 +30,6 @@ public class Usuario {
         this.usuario = usuario;
     }
 
-    // Getters e Setters para senha
     public String getSenha() {
         return senha;
     }
@@ -41,7 +38,6 @@ public class Usuario {
         this.senha = senha;
     }
 
-    // Getters e Setters para email
     public String getEmail() {
         return email;
     }
@@ -50,7 +46,6 @@ public class Usuario {
         this.email = email;
     }
 
-    // Getters e Setters para usuarioCadastrado
     public String getUsuarioCadastrado() {
         return usuarioCadastrado;
     }
@@ -59,7 +54,6 @@ public class Usuario {
         this.usuarioCadastrado = usuarioCadastrado;
     }
 
-    // Getters e Setters para senhaCadastrada
     public String getSenhaCadastrada() {
         return senhaCadastrada;
     }
@@ -68,7 +62,6 @@ public class Usuario {
         this.senhaCadastrada = senhaCadastrada;
     }
 
-    // Getters e Setters para emailCadastrado
     public String getEmailCadastrado() {
         return emailCadastrado;
     }
@@ -77,17 +70,35 @@ public class Usuario {
         this.emailCadastrado = emailCadastrado;
     }
 
+    public void cadastrarUsuario(String usuario, String senha) throws NoSuchAlgorithmException, UnsupportedEncodingException {
+
+        if (!usuario.isEmpty() && !senha.isEmpty()) {
+            if (this.usuarioCadastrado.contains(usuario) && this.senhaCadastrada.contains(senha)) {
+                System.out.println("Você já fez o cadastro!");
+            } else {
+                this.setUsuario(usuario);
+                this.setSenha(senha);
+                this.setUsuarioCadastrado(usuario);
+                this.setSenhaCadastrada(senha);
+                System.out.println("Seu usuário foi cadastrado com sucesso!");
+            }
+        }
+    }
+
+    // Overload - adicionou email ao cadastrarUsuario
     public void cadastrarUsuario(String email, String usuario, String senha) throws NoSuchAlgorithmException, UnsupportedEncodingException {
 
         if (!usuario.isEmpty() && !senha.isEmpty()) {
             if (this.usuarioCadastrado.contains(usuario) && this.senhaCadastrada.contains(senha)) {
                 System.out.println("Você já fez o cadastro!");
             } else {
-                this.usuario = usuario;
-                this.senha = senha;
-                this.usuarioCadastrado = usuario;
-                this.senhaCadastrada = senha;
-                System.out.println("Seu usuário foi cadastrado com sucesso!");
+                this.setUsuario(usuario);
+                this.setSenha(senha);
+                this.setUsuarioCadastrado(usuario);
+                this.setSenhaCadastrada(senha);
+                this.setEmail(email);
+                this.setEmailCadastrado(email);
+                System.out.println("Seu usuário foi vinculado ao email "+this.getEmailCadastrado()+" e cadastrado com sucesso!");
             }
         }
     }
@@ -98,6 +109,5 @@ public class Usuario {
 
     public void logout() {
         this.estaLogado = false;
-        System.out.println("Você foi deslogado com sucesso!");
     }
 }

@@ -6,7 +6,6 @@ public class InterfaceMonitoramento {
     private Relatorio relatorio = new Relatorio();
     private double valorFinal = 0;
 
-    // Getter e Setter para valorFinal
     public double getValorFinal() {
         return valorFinal;
     }

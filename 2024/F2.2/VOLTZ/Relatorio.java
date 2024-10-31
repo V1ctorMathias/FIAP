@@ -3,7 +3,6 @@ public class Relatorio {
     private String tipo = "tabela";
     private String conteudo = "";
 
-    // Getter e Setter para tipo
     public String getTipo() {
         return tipo;
     }
@@ -12,7 +11,6 @@ public class Relatorio {
         this.tipo = tipo;
     }
 
-    // Getter e Setter para conteudo
     public String getConteudo() {
         return conteudo;
     }

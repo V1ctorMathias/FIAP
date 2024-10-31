@@ -6,7 +6,6 @@ public class Seguranca {
 
     private byte[] senhaCriptografada;
 
-    // Getter e Setter para senhaCriptografada
     public byte[] getSenhaCriptografada() {
         return senhaCriptografada;
     }

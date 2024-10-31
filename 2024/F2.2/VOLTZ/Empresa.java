@@ -3,7 +3,6 @@ public class Empresa {
     private String nomeEmpresa = "";
     private int identificador = 0;
 
-    // Getter e Setter para nomeEmpresa
     public String getNomeEmpresa() {
         return nomeEmpresa;
     }
@@ -12,7 +11,6 @@ public class Empresa {
         this.nomeEmpresa = nomeEmpresa;
     }
 
-    // Getter e Setter para identificador
     public int getIdentificador() {
         return identificador;
     }

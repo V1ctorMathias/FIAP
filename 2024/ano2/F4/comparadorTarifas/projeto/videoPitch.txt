@@ -1,0 +1,18 @@
+Video Pitch
+https://youtu.be/1T9rY0kgyOI?si=XV7V2LdK2qjAPXui
+
+Turma: 2ESOR
+
+Integrantes 
+
+Iago Henrique Bortolo 
+RM553176
+Paulo Victor de Oliveira Silva
+RM97526
+João Pedro Coelho Maran
+RM554099
+Victor Mathias Pereira Porto
+RM553530
+
+Obs: pasta com o projeto feito na IDE Intellij e arquivo .jar
+Caso queria executar o arquivo é necessario o comando: java -jar energiaeconomica.jar

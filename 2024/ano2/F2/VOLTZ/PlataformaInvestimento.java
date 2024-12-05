@@ -147,7 +147,13 @@ public class PlataformaInvestimento extends Usuario {
 
                 monitoramento.exibirDados(this.contador, this.valores, inputInvestInicial, tipoAlerta);
 
-                if (!this.integracaoContas.empresa.getNomeEmpresa().isEmpty()) {
+                System.out.println("Escolha uma empresa para vincular os dados: ");
+                for (int id = 1; id < this.integracaoContas.empresa.getLengthLstEmpresa(); id++) {
+                    System.out.println(this.integracaoContas.empresa.getNomeEmpresa(id)+"["+id+"]");
+                }
+                int empresaEscolhida = sc.nextInt();
+
+                if (this.integracaoContas.empresa.getNomeEmpresa(empresaEscolhida) != null) {
                     System.out.println(
                             this.usuarioClasse.getUsuario()
                                     + ", todos esses dados foram adicionados a sua conta empresa");
@@ -155,7 +161,7 @@ public class PlataformaInvestimento extends Usuario {
                     int manterEmpresa = sc.nextInt();
 
                     if (manterEmpresa == 0) {
-                        this.integracaoContas.removerConta();
+                        // this.integracaoContas.removerConta();
                     }
                 }
                 sc.close();

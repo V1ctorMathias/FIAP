@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="db5477ee-373b-4c13-ba87-05528affe2be" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../F2.2/VOLTZ/Alerta.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../F2.2/VOLTZ/Empresa.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../F2.2/VOLTZ/IntegracaoContas.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../F2.2/VOLTZ/InterfaceMonitoramento.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../F2.2/VOLTZ/PlataformaInvestimento.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../F2.2/VOLTZ/Relatorio.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../F2.2/VOLTZ/Seguranca.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../F2.2/VOLTZ/Usuario.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../F2.2/VOLTZ/VOLTZ.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../F2.2/VOLTZ/Video Pitch.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../F2.2/VOLTZ/diagrama.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../F7.1.rar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../F7.1/assets/06-existem-170-trilhoes-de-pedacos-de-lixo-plastico-nos-oceanos-grafico-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../F7.1/assets/1000_F_509504646_QMQZLdgBlS4EVYPvIwKE5K0JmQhDg9ho.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../F7.1/assets/Imagem do WhatsApp de 2024-06-05 à(s) 15.13.00_c54e6163.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../F7.1/assets/Imagem do WhatsApp de 2024-06-05 à(s) 15.13.01_2301dbc4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../F7.1/assets/ocean-svgrepo-com.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../F7.1/assets/pngwing.com (6).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../F7.1/assets/testeimage50px.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../F7.1/assets/undefinedOcean.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../F7.1/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../F7.1/novaUrlSiteImportanteLER.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../F7.1/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../F7.1/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../F7/assets/aperto.avif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../F7/assets/aperto3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../F7/assets/apertodemao.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../F7/assets/cart-shopping-svgrepo-com (2).svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../F7/fiap.postman_collection.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../F7/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../F7/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../F7/style.css" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 0
+}]]></component>
+  <component name="ProjectId" id="2pBM2ILhtx5LqPt9Dp9QvMZO5Cr" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/User/Documents/GitHub/FIAP/2024/ano2/F4/comparadorTarifas"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="db5477ee-373b-4c13-ba87-05528affe2be" name="Changes" comment="" />
+      <created>1732234806880</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1732234806880</updated>
+    </task>
+    <servers />
+  </component>
+</project>

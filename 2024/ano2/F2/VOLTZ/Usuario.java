@@ -1,7 +1,13 @@
+import java.io.FileWriter;
+import java.io.IOException;
 import java.io.UnsupportedEncodingException;
 import java.security.NoSuchAlgorithmException;
+import java.util.HashMap;
+import java.util.Map;
 
 public class Usuario {
+
+    Seguranca seguranca = new Seguranca();
 
     private boolean estaLogado = false;
     private String usuario;
@@ -12,7 +18,7 @@ public class Usuario {
     private String senhaCadastrada = "";
     private String emailCadastrado = "";
 
-    private Seguranca seguranca = new Seguranca();
+    Map<String, String> lstUsuario = new HashMap<String, String>();
 
     public boolean isEstaLogado() {
         return estaLogado;
@@ -22,20 +28,16 @@ public class Usuario {
         this.estaLogado = estaLogado;
     }
 
+    public void setUsuarioSenha(String usuario, String senha) {
+        this.lstUsuario.put(usuario, senha);
+    }
+
     public String getUsuario() {
         return usuario;
     }
 
-    public void setUsuario(String usuario) {
-        this.usuario = usuario;
-    }
-
     public String getSenha() {
-        return senha;
-    }
-
-    public void setSenha(String senha) {
-        this.senha = senha;
+        return this.senha;
     }
 
     public String getEmail() {
@@ -50,16 +52,12 @@ public class Usuario {
         return usuarioCadastrado;
     }
 
-    public void setUsuarioCadastrado(String usuarioCadastrado) {
-        this.usuarioCadastrado = usuarioCadastrado;
-    }
-
     public String getSenhaCadastrada() {
         return senhaCadastrada;
     }
 
-    public void setSenhaCadastrada(String senhaCadastrada) {
-        this.senhaCadastrada = senhaCadastrada;
+    public boolean isUsuarioCadastrado(String usuario) {
+        return lstUsuario.containsKey(usuario);
     }
 
     public String getEmailCadastrado() {
@@ -70,44 +68,50 @@ public class Usuario {
         this.emailCadastrado = emailCadastrado;
     }
 
-    public void cadastrarUsuario(String usuario, String senha) throws NoSuchAlgorithmException, UnsupportedEncodingException {
+    public void cadastrarUsuario(String usuario, String senha)
+            throws NoSuchAlgorithmException, UnsupportedEncodingException, IOException {
 
         if (!usuario.isEmpty() && !senha.isEmpty()) {
-            if (this.usuarioCadastrado.contains(usuario) && this.senhaCadastrada.contains(senha)) {
+            if (isUsuarioCadastrado(usuario)) {
                 System.out.println("Você já fez o cadastro!");
             } else {
-                this.setUsuario(usuario);
-                this.setSenha(senha);
-                this.setUsuarioCadastrado(usuario);
-                this.setSenhaCadastrada(senha);
+                this.setUsuarioSenha(usuario, senha);
+                atualizarArquivo(usuario, senha);
                 System.out.println("Seu usuário foi cadastrado com sucesso!");
             }
         }
     }
 
     // Overload - adicionou email ao cadastrarUsuario
-    public void cadastrarUsuario(String email, String usuario, String senha) throws NoSuchAlgorithmException, UnsupportedEncodingException {
+    public void cadastrarUsuario(String email, String usuario, String senha)
+            throws NoSuchAlgorithmException, UnsupportedEncodingException, IOException {
 
         if (!usuario.isEmpty() && !senha.isEmpty()) {
-            if (this.usuarioCadastrado.contains(usuario) && this.senhaCadastrada.contains(senha)) {
+            if (isUsuarioCadastrado(usuario)) {
                 System.out.println("Você já fez o cadastro!");
             } else {
-                this.setUsuario(usuario);
-                this.setSenha(senha);
-                this.setUsuarioCadastrado(usuario);
-                this.setSenhaCadastrada(senha);
+                this.setUsuarioSenha(usuario, senha);
                 this.setEmail(email);
                 this.setEmailCadastrado(email);
-                System.out.println("Seu usuário foi vinculado ao email "+this.getEmailCadastrado()+" e cadastrado com sucesso!");
+                atualizarArquivo(usuario, senha);
+                System.out.println("Seu usuário foi vinculado ao email " + this.getEmailCadastrado()
+                        + " e cadastrado com sucesso!");
             }
         }
     }
 
     public void login(String usuario, String senha) throws NoSuchAlgorithmException, UnsupportedEncodingException {
-       this.estaLogado = this.seguranca.autenticar(usuario, this.usuarioCadastrado, senha, this.senhaCadastrada);
+        this.estaLogado = this.seguranca.autenticar(usuario, senha, this.lstUsuario);
     }
 
     public void logout() {
         this.estaLogado = false;
+    }
+
+    // Método para atualizar o arquivo com o novo usuário
+    private void atualizarArquivo(String usuario, String senha) throws IOException {
+        try (FileWriter writer = new FileWriter("usuarios.txt", true)) {
+            writer.write("Usuário: " + usuario + ", Senha: " + senha + System.lineSeparator());
+        }
     }
 }

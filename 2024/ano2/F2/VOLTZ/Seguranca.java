@@ -1,6 +1,6 @@
 import java.io.UnsupportedEncodingException;
-import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
+import java.util.Map;
 
 public class Seguranca {
 
@@ -14,24 +14,30 @@ public class Seguranca {
         this.senhaCriptografada = senhaCriptografada;
     }
 
-    public boolean autenticar(String usuario, String usuarioCadastrado, String senha, String senhaCadastrada)
+    public boolean autenticar(String usuario, String senha, Map<String, String> lstUsuarios)
             throws NoSuchAlgorithmException, UnsupportedEncodingException {
-        return criptografar(usuario, usuarioCadastrado, senha, senhaCadastrada);
+        return criptografar(usuario, senha, lstUsuarios);
     }
 
-    private boolean criptografar(String usuario, String usuarioCadastrado, String senha, String senhaCadastrada)
+    private boolean criptografar(String usuario, String senha, Map<String, String> lstUsuarios)
             throws NoSuchAlgorithmException, UnsupportedEncodingException {
 
-        MessageDigest algorithmCadastrado = MessageDigest.getInstance("MD5");
-        byte senhaCadastrado[] = algorithmCadastrado.digest(senhaCadastrada.getBytes("UTF-8"));
+        // MessageDigest algorithmCadastrado = MessageDigest.getInstance("MD5");
+        // byte senhaCadastrado[] = algorithmCadastrado.digest(usuario.getBytes("UTF-8"));
 
-        if (senhaCadastrada.contains(senha) && usuarioCadastrado.contains(usuarioCadastrado)) {
-            this.senhaCriptografada = senhaCadastrado;
-            System.out.println("Seja bem-vindo " + usuario + "!");
-            return true;
-        } else {
-            System.out.println("Login ou senha incorretos!");
-            return false;
+        boolean resultado = false;
+
+        for (String key : lstUsuarios.keySet()) {
+            if (lstUsuarios.get(key).contains(senha)) {
+                System.out.println("Seja bem-vindo " + usuario + "!");
+                resultado = true;
+            } else {
+                System.out.println("Login ou senha incorretos!");
+                resultado = false;
+            }
         }
+
+        return resultado;
+
     }
 }

@@ -1,0 +1,16 @@
+=== Integrantes === 
+
+Iago Henrique Bortolo 
+RM553176
+Paulo Victor de Oliveira Silva
+RM97526
+João Pedro Coelho Maran
+RM554099
+Victor Mathias Pereira Porto
+RM553530
+
+=== OBS ===
+Alterações nas classes 
+Segurança: Adicionado hashMap e gerador de arquivo txt;
+Usuario: Utilizado hashMap da classe Segurança;
+Empresa: Adiciona arrayList e gerar de arquivo txt;

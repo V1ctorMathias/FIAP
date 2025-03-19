@@ -2,11 +2,14 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.io.UnsupportedEncodingException;
 import java.security.NoSuchAlgorithmException;
+import java.sql.SQLException;
+import java.sql.Statement;
 import java.util.HashMap;
 import java.util.Map;
 
 public class Usuario {
 
+    Conexao connect = new Conexao();
     Seguranca seguranca = new Seguranca();
 
     private boolean estaLogado = false;
@@ -28,8 +31,9 @@ public class Usuario {
         this.estaLogado = estaLogado;
     }
 
-    public void setUsuarioSenha(String usuario, String senha) {
-        this.lstUsuario.put(usuario, senha);
+    public void setUsuarioSenha(String usuario, String senha, String email) throws SQLException {
+        // this.lstUsuario.put(usuario, senha);
+        this.connect.cadastrar(usuario, senha, email);
     }
 
     public String getUsuario() {
@@ -69,13 +73,13 @@ public class Usuario {
     }
 
     public void cadastrarUsuario(String usuario, String senha)
-            throws NoSuchAlgorithmException, UnsupportedEncodingException, IOException {
+            throws NoSuchAlgorithmException, UnsupportedEncodingException, IOException, SQLException {
 
         if (!usuario.isEmpty() && !senha.isEmpty()) {
             if (isUsuarioCadastrado(usuario)) {
                 System.out.println("Você já fez o cadastro!");
             } else {
-                this.setUsuarioSenha(usuario, senha);
+                this.setUsuarioSenha(usuario, senha, email);
                 atualizarArquivo(usuario, senha);
                 System.out.println("Seu usuário foi cadastrado com sucesso!");
             }
@@ -84,13 +88,13 @@ public class Usuario {
 
     // Overload - adicionou email ao cadastrarUsuario
     public void cadastrarUsuario(String email, String usuario, String senha)
-            throws NoSuchAlgorithmException, UnsupportedEncodingException, IOException {
+            throws NoSuchAlgorithmException, UnsupportedEncodingException, IOException, SQLException {
 
         if (!usuario.isEmpty() && !senha.isEmpty()) {
             if (isUsuarioCadastrado(usuario)) {
                 System.out.println("Você já fez o cadastro!");
             } else {
-                this.setUsuarioSenha(usuario, senha);
+                this.setUsuarioSenha(usuario, senha, email);
                 this.setEmail(email);
                 this.setEmailCadastrado(email);
                 atualizarArquivo(usuario, senha);
@@ -100,8 +104,8 @@ public class Usuario {
         }
     }
 
-    public void login(String usuario, String senha) throws NoSuchAlgorithmException, UnsupportedEncodingException {
-        this.estaLogado = this.seguranca.autenticar(usuario, senha, this.lstUsuario);
+    public void login(String usuario, String senha) throws NoSuchAlgorithmException, UnsupportedEncodingException, SQLException {
+        this.estaLogado = this.seguranca.autenticar(usuario, senha);
     }
 
     public void logout() {

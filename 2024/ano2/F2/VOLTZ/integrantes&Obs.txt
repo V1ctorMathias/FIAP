@@ -10,7 +10,9 @@ Victor Mathias Pereira Porto
 RM553530
 
 === OBS ===
-Alterações nas classes 
-Segurança: Adicionado hashMap e gerador de arquivo txt;
-Usuario: Utilizado hashMap da classe Segurança;
-Empresa: Adiciona arrayList e gerar de arquivo txt;
+- Criação da classe "Conexao" para integração com bd
+- Criado pasta "db" para armazenar ddl e dml do sql
+- Classe "Usuario" alterada para criar usuario no de banco de dados;
+
+*****Importante*****
+Adicionado drive da Oracle na pasta driveDb - obrigatorio para execucao do db

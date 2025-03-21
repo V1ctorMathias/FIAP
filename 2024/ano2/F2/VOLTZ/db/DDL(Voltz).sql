@@ -69,3 +69,25 @@ BEGIN
         SELECT investimen_seq.NEXTVAL INTO :NEW.InvestimentoID FROM dual;
     END IF;
 END;
+
+-- Criando a tabela logs de acesso
+CREATE TABLE LogsAcesso (
+    logID INT PRIMARY KEY,
+    UsuarioID INT,
+    DataLog DATE,
+    FOREIGN KEY (UsuarioID) REFERENCES Usuarios(UsuarioID)
+);
+
+-- Auto incremento do id
+CREATE SEQUENCE log_seq
+START WITH 1
+INCREMENT BY 1
+NOCACHE;
+CREATE OR REPLACE TRIGGER trg_log_id
+BEFORE INSERT ON LogsAcesso
+FOR EACH ROW
+BEGIN
+    IF :NEW.logID IS NULL THEN
+        SELECT log_seq.NEXTVAL INTO :NEW.logID FROM dual;
+    END IF;
+END;

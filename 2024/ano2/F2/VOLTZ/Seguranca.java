@@ -31,6 +31,7 @@ public class Seguranca {
 
             if (this.connect.login(usuario, senha) == true) {
                 System.out.println("Seja bem-vindo " + usuario + "!");
+                this.connect.logs();
                 resultado = true;
             } else {
                 System.out.println("Login ou senha incorretos!");

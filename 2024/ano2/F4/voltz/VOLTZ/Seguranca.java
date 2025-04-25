@@ -1,10 +1,12 @@
 import java.io.UnsupportedEncodingException;
 import java.security.NoSuchAlgorithmException;
+import java.sql.SQLException;
 import java.util.Map;
 
 public class Seguranca {
 
     private byte[] senhaCriptografada;
+    Conexao connect = new Conexao();
 
     public byte[] getSenhaCriptografada() {
         return senhaCriptografada;
@@ -14,28 +16,28 @@ public class Seguranca {
         this.senhaCriptografada = senhaCriptografada;
     }
 
-    public boolean autenticar(String usuario, String senha, Map<String, String> lstUsuarios)
-            throws NoSuchAlgorithmException, UnsupportedEncodingException {
-        return criptografar(usuario, senha, lstUsuarios);
+    public boolean autenticar(String usuario, String senha)
+            throws NoSuchAlgorithmException, UnsupportedEncodingException, SQLException {
+        return criptografar(usuario, senha);
     }
 
-    private boolean criptografar(String usuario, String senha, Map<String, String> lstUsuarios)
-            throws NoSuchAlgorithmException, UnsupportedEncodingException {
+    private boolean criptografar(String usuario, String senha)
+            throws NoSuchAlgorithmException, UnsupportedEncodingException, SQLException {
 
         // MessageDigest algorithmCadastrado = MessageDigest.getInstance("MD5");
         // byte senhaCadastrado[] = algorithmCadastrado.digest(usuario.getBytes("UTF-8"));
 
         boolean resultado = false;
 
-        for (String key : lstUsuarios.keySet()) {
-            if (lstUsuarios.get(key).contains(senha)) {
+            if (this.connect.login(usuario, senha) == true) {
                 System.out.println("Seja bem-vindo " + usuario + "!");
+                this.connect.logs();
                 resultado = true;
             } else {
                 System.out.println("Login ou senha incorretos!");
                 resultado = false;
             }
-        }
+       
 
         return resultado;
 

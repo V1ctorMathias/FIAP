@@ -9,12 +9,14 @@ public class PlataformaInvestimento extends Usuario {
     Usuario usuarioClasse = new Usuario();
     IntegracaoContas integracaoContas = new IntegracaoContas();
     Empresa empresa = new Empresa();
+    Conexao conexaoClasse  = new Conexao();
 
     // Override do logout vindo da classe Usuario
     @Override
     public void logout() {
         try {
             this.usuarioClasse.setEstaLogado(false);
+            Conexao.logado = false;
             System.out.println("Você foi deslogado!");
         } catch (Exception e) {
             System.out.println("Erro no método de logout: " + e);
@@ -126,7 +128,7 @@ public class PlataformaInvestimento extends Usuario {
                 this.inputInvestInicial = sc.nextDouble();
             }
 
-            System.out.println("Adicione a cotação da cripto em um mês: ");
+            System.out.println("Adicione a cotação da cripto: ");
             double inputValor = sc.nextDouble();
 
             this.valores[this.contador] = inputValor;
@@ -147,23 +149,23 @@ public class PlataformaInvestimento extends Usuario {
 
                 monitoramento.exibirDados(this.contador, this.valores, inputInvestInicial, tipoAlerta);
 
-                System.out.println("Escolha uma empresa para vincular os dados: ");
-                for (int id = 1; id < this.integracaoContas.empresa.getLengthLstEmpresa(); id++) {
-                    System.out.println(this.integracaoContas.empresa.getNomeEmpresa(id)+"["+id+"]");
-                }
-                int empresaEscolhida = sc.nextInt();
+                // System.out.println("Escolha uma empresa para vincular os dados: ");
+                // for (int id = 1; id < this.integracaoContas.empresa.getLengthLstEmpresa(); id++) {
+                //     System.out.println(this.integracaoContas.empresa.getNomeEmpresa(id)+"["+id+"]");
+                // }
+                // int empresaEscolhida = sc.nextInt();
 
-                if (this.integracaoContas.empresa.getNomeEmpresa(empresaEscolhida) != null) {
-                    System.out.println(
-                            this.usuarioClasse.getUsuario()
-                                    + ", todos esses dados foram adicionados a sua conta empresa");
-                    System.out.println("Deseja manter o vínculo com a empresa? Não [0] Sim [1]");
-                    int manterEmpresa = sc.nextInt();
+                // if (this.integracaoContas.empresa.getNomeEmpresa(empresaEscolhida) != null) {
+                //     System.out.println(
+                //             this.usuarioClasse.getUsuario()
+                //                     + ", todos esses dados foram adicionados a sua conta empresa");
+                //     System.out.println("Deseja manter o vínculo com a empresa? Não [0] Sim [1]");
+                //     int manterEmpresa = sc.nextInt();
 
-                    if (manterEmpresa == 0) {
-                        // this.integracaoContas.removerConta();
-                    }
-                }
+                //     if (manterEmpresa == 0) {
+                //         // this.integracaoContas.removerConta();
+                //     }
+                // }
                 sc.close();
             }
         } catch (Exception e) {

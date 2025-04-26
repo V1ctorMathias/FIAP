@@ -2,6 +2,9 @@ import com.google.gson.*;
 import java.io.*;
 import java.net.HttpURLConnection;
 import java.net.URL;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
 import java.util.*;
 
 // Superclasse Tarifa
@@ -25,6 +28,7 @@ abstract class Tarifa {
     public abstract float obterCusto(float consumo);
 }
 
+// Tarifa Fixa
 class TarifaFixa extends Tarifa {
     public TarifaFixa(String nome, float precoKWh) {
         super(nome, precoKWh);
@@ -36,6 +40,7 @@ class TarifaFixa extends Tarifa {
     }
 }
 
+// Tarifa Variável
 class TarifaVariavel extends Tarifa {
     private float precoForaPico;
 
@@ -50,7 +55,7 @@ class TarifaVariavel extends Tarifa {
 
     @Override
     public float obterCusto(float consumo) {
-        // Simulação de cálculo com base em 70% fora de pico e 30% no pico
+        // Simulação: 30% pico + 70% fora pico
         return consumo * (0.3f * precoKWh + 0.7f * precoForaPico);
     }
 }
@@ -87,7 +92,7 @@ class Usuario {
     }
 }
 
-// Classe ConsumoEnergia
+// Consumo Energia
 class ConsumoEnergia {
     private Date dataRegistro;
     private float consumoKWh;
@@ -106,7 +111,7 @@ class ConsumoEnergia {
     }
 }
 
-// Classe FornecedorEnergia
+// Fornecedor Energia
 class FornecedorEnergia {
     private String nome;
     private List<Tarifa> tarifas;
@@ -142,7 +147,12 @@ public class Main {
                 case 1 -> cadastrarUsuario(scanner);
                 case 2 -> registrarConsumo(scanner);
                 case 3 -> sugerirPlano(scanner);
-                case 4 -> System.out.println("Saindo do programa. Até logo!");
+                case 4 -> {
+                    System.out.println("Saindo do programa. Até logo!");
+
+                    // Testar DAOs ao sair
+                    testarDAOs();
+                }
                 default -> System.out.println("Opção inválida! Tente novamente.");
             }
         } while (opcao != 4);
@@ -274,6 +284,37 @@ public class Main {
             } catch (NumberFormatException e) {
                 System.out.println("Entrada inválida. Digite um número válido.");
             }
+        }
+    }
+
+    private static void testarDAOs() {
+        System.out.println("\n--- Testando DAOs ---");
+
+        String url = "jdbc:oracle:thin:@oracle.fiap.com.br:1521:orcl";
+        String usuario = "rm554099";
+        String senha = "291103";
+
+        try (Connection conexao = DriverManager.getConnection(url, usuario, senha)) {
+
+            UsuarioDAO usuarioDAO = new UsuarioDAO(conexao);
+            EmpresaDAO empresaDAO = new EmpresaDAO(conexao);
+            PlataformaInvestimentoDAO plataformaDAO = new PlataformaInvestimentoDAO(conexao);
+            IntegracaoContasDAO integracaoDAO = new IntegracaoContasDAO(conexao);
+
+            usuarioDAO.inserirUsuario("Teste Usuario", "Rua Exemplo, 123");
+            usuarioDAO.listarUsuarios();
+
+            empresaDAO.inserirEmpresa("Empresa Teste", "CNPJ teste");
+            empresaDAO.listarEmpresas();
+
+            plataformaDAO.inserirPlataforma("Plataforma Teste");
+            plataformaDAO.listarPlataformas();
+
+            integracaoDAO.inserirIntegracao(1, 1);
+            integracaoDAO.listarIntegracoes();
+
+        } catch (SQLException e) {
+            System.err.println("Erro ao testar DAOs: " + e.getMessage());
         }
     }
 }

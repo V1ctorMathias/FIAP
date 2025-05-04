@@ -11,7 +11,7 @@ public class Conexao {
     private static int idUsuario = 0;
     private static String nomeUsuario = "";
     public static boolean logado = false;
-    static Conexao conexaoClasse = new Conexao();
+    // static Conexao conexaoClasse = new Conexao();
 
     public void setIdUsuario(int id, String nome) {
         Conexao.idUsuario = id;

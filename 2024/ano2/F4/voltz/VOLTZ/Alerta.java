@@ -10,7 +10,7 @@ public class Alerta {
     private AlertaDAO alertaDAO;
 
     public Alerta() {
-        this.alertaDAO = new AlertaDAO(conexao);
+        
     }
 
     // Getters e Setters para tipoAlerta

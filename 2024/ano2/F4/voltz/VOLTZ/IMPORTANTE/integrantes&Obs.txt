@@ -15,7 +15,9 @@ RM553530
 - Classe "Usuario" alterada para criar usuario no de banco de dados;
 - Adicionado rotina de log na tabela "logsAcesso" com insert, select e delete após 3 logs;
 - Atualizado valores de investimentos na tabela "Investimentos" caso logar novamente;
-
+- Criado Menus e Submenus na plataformaInvestimento;
+- Adiciona ArrayList na classe Empresa;
+- Armazenado dados vindos das principais classes no BD;
 
 *****Importante*****
 Adicionado drive da Oracle na pasta driveDb execute: java -cp ".;driveDB/ojdbc8.jar" PlataformaInvestimento

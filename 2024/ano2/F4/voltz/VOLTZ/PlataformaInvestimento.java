@@ -224,7 +224,11 @@ public class PlataformaInvestimento extends Usuario {
         System.out.print("Senha: ");
         String senha = sc.nextLine();
 
-        usuarioClasse.cadastrarUsuario(email, nome, senha);
+        try {
+            usuarioClasse.cadastrarUsuario(email, nome, senha);
+        } catch (java.io.IOException | SQLException e) {
+            System.out.println("Erro ao cadastrar usuário: " + e.getMessage());
+        }
     }
 
     private void alterarUsuario() throws SQLException {

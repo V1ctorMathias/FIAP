@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>teste</title>
+</head>
+
+<body>
+    <main>
+        <nav>
+            <div class="logo">
+                <picture>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="lucide lucide-wine h-6 w-6 text-primary" aria-hidden="true">
+                        <path d="M8 22h8"></path>
+                        <path d="M7 10h10"></path>
+                        <path d="M12 15v7"></path>
+                        <path d="M12 15a5 5 0 0 0 5-5c0-2-.5-4-2-8H9c-1.5 4-2 6-2 8a5 5 0 0 0 5 5Z"></path>
+                    </svg>
+                    Vinheria Angelo
+                </picture>
+            </div>
+            <ul class="opcoes">
+                <li>Início</li>
+                <li>Recomendações</li>
+                <li>Conservação</li>
+                <li>Harmonização</li>
+            </ul>
+        </nav>
+        <section class="sobre-vinhos">
+            <article>
+                <h1>Aprenda sobre vinhos de forma simples</h1>
+                <h2>Descubra como escolher, conservar e harmonizar vinhos sem complicação. Nossa plataforma oferece
+                    recomendações personalizadas e dicas práticas para consumidores e lojistas.</h2>
+                <button>Descobrir Vinhos</button>
+                <button>Aprender sobre Conservação</button>
+            </article>
+            <img src="./assets/sobre-vinhos/vinhos.jpg" alt="">
+            <div class="cards">
+                <div class="card">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="lucide lucide-thermometer h-6 w-6 text-destructive" aria-hidden="true">
+                        <path d="M14 4v10.54a4 4 0 1 1-4 0V4a2 2 0 0 1 4 0Z"></path>
+                    </svg>
+                    <span class="titulo">Temperatura</span>
+                    <p class="descricao">O calor do Brasil afeta a qualidade dos vinhos durante transporte e armazenagem
+                    </p>
+                </div>
+                <div class="card">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="lucide lucide-zap h-6 w-6 text-destructive" aria-hidden="true">
+                        <path
+                            d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z">
+                        </path>
+                    </svg>
+                    <span class="titulo">Muitos Termos Técnicos</span>
+                    <p class="descricao">Rótulos e descrições complexas confundem consumidores iniciantes
+                </div>
+                <div class="card">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="lucide lucide-users h-6 w-6 text-destructive" aria-hidden="true">
+                        <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path>
+                        <path d="M16 3.128a4 4 0 0 1 0 7.744"></path>
+                        <path d="M22 21v-2a4 4 0 0 0-3-3.87"></path>
+                        <circle cx="9" cy="7" r="4"></circle>
+                    </svg>
+                    <span class="titulo">Falta de Orientação</span>
+                    <p class="descricao">Lojistas precisam de ferramentas para orientar melhor os clientes
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="recomendacoes">
+            <div class="titulo">
+                <h1>Recomendações personalizadas</h1>
+                <h2>Encontre o vinho ideal para cada ocasião com nossas recomendações simples e confiáveis</h2>
+            </div>
+
+            <div class="filtro">
+                <select name="" id="">
+                    <option value="">Escolha a ocasião</option>
+                    <option value="1">Jantar especial</option>
+                    <option value="2">Almoço casual</option>
+                    <option value="3">Dia a dia</option>
+                    <option value="4">Celebração</option>
+                </select>
+                <select name="" id="">
+                    <option value="">Tipo de vinho</option>
+                    <option value="4">Tinto</option>
+                    <option value="1">Branco</option>
+                    <option value="2">Espumante</option>
+                    <option value="3">Rosé</option>
+                </select>
+                <button>Limpar</button>
+            </div>
+
+            <div class="recomendacoes__cards">
+                <div class="recomendacoes__cards__card">
+                    <img src="./assets/recomendacoes/tacas.jpg" alt="">
+                    <article>
+                        <div class="titulo">
+                            <div class="titulo-status">
+                                <h1>Cabernet Sauvignon Reserva</h1>
+                                <div class="status"></div>
+                                <span>Excelente</span>
+                            </div>
+                            <h2>Vale dos Vinhedos, RS</h2>
+                        </div>
+                        <div class="corpo">
+                            <p class="descricao">
+                                Vinho encorpado com notas de frutas vermelhas e taninos macios
+                            </p>
+                            <div class="tags">
+                                <span class="tag">Tinto</span>
+                                <span class="tag">Jantar Especial</span>
+                            </div>
+                            <div class="temperatura-preco">
+                                <div class="temperatura">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        class="lucide lucide-thermometer h-4 w-4 text-muted-foreground"
+                                        aria-hidden="true">
+                                        <path d="M14 4v10.54a4 4 0 1 1-4 0V4a2 2 0 0 1 4 0Z"></path>
+                                    </svg>
+                                    <span>16-18°C</span>
+                                </div>
+                                <div class="preco">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        class="lucide lucide-award h-4 w-4 text-muted-foreground" aria-hidden="true">
+                                        <path
+                                            d="m15.477 12.89 1.515 8.526a.5.5 0 0 1-.81.47l-3.58-2.687a1 1 0 0 0-1.197 0l-3.586 2.686a.5.5 0 0 1-.81-.469l1.514-8.526">
+                                        </path>
+                                        <circle cx="12" cy="8" r="6"></circle>
+                                    </svg>
+                                    <span>R$ 45-65</span>
+                                </div>
+                            </div>
+                            <p class="descricao">Harmoniza com: Carnes vermelhas grelhadas</p>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="recomendacoes__cards__card">
+                    <img src="./assets/recomendacoes/tacas.jpg" alt="">
+                    <article>
+                        <div class="titulo">
+                            <div class="titulo-status">
+                                <h1>Chardonnay Premium</h1>
+                                <div class="status"></div>
+                                <span>Boa</span>
+                            </div>
+                            <h2>Serra Gaúcha, RS</h2>
+                        </div>
+                        <div class="corpo">
+                            <p class="descricao">
+                                Branco fresco com aroma cítrico e final mineral
+                            </p>
+                            <div class="tags">
+                                <span class="tag">Branco</span>
+                                <span class="tag">Almoço casual</span>
+                            </div>
+                            <div class="temperatura-preco">
+                                <div class="temperatura">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        class="lucide lucide-thermometer h-4 w-4 text-muted-foreground"
+                                        aria-hidden="true">
+                                        <path d="M14 4v10.54a4 4 0 1 1-4 0V4a2 2 0 0 1 4 0Z"></path>
+                                    </svg>
+                                    <span>8-10°C</span>
+                                </div>
+                                <div class="preco">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        class="lucide lucide-award h-4 w-4 text-muted-foreground" aria-hidden="true">
+                                        <path
+                                            d="m15.477 12.89 1.515 8.526a.5.5 0 0 1-.81.47l-3.58-2.687a1 1 0 0 0-1.197 0l-3.586 2.686a.5.5 0 0 1-.81-.469l1.514-8.526">
+                                        </path>
+                                        <circle cx="12" cy="8" r="6"></circle>
+                                    </svg>
+                                    <span>R$ 35-50</span>
+                                </div>
+                            </div>
+                            <p class="descricao">Harmoniza com: Peixes e frutos do mar</p>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="recomendacoes__cards__card">
+                    <img src="./assets/recomendacoes/tacas.jpg" alt="">
+                    <article>
+                        <div class="titulo">
+                            <div class="titulo-status">
+                                <h1>Merlot Clássico</h1>
+                                <div class="status"></div>
+                                <span>Boa</span>
+                            </div>
+                            <h2>Campanha, RS</h2>
+                        </div>
+                        <div class="corpo">
+                            <p class="descricao">
+                                Vinho macio e frutado, ideal para iniciantes
+                            </p>
+                            <div class="tags">
+                                <span class="tag">Tinto</span>
+                                <span class="tag">Dia a dia</span>
+                            </div>
+                            <div class="temperatura-preco">
+                                <div class="temperatura">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        class="lucide lucide-thermometer h-4 w-4 text-muted-foreground"
+                                        aria-hidden="true">
+                                        <path d="M14 4v10.54a4 4 0 1 1-4 0V4a2 2 0 0 1 4 0Z"></path>
+                                    </svg>
+                                    <span>14-16°C</span>
+                                </div>
+                                <div class="preco">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        class="lucide lucide-award h-4 w-4 text-muted-foreground" aria-hidden="true">
+                                        <path
+                                            d="m15.477 12.89 1.515 8.526a.5.5 0 0 1-.81.47l-3.58-2.687a1 1 0 0 0-1.197 0l-3.586 2.686a.5.5 0 0 1-.81-.469l1.514-8.526">
+                                        </path>
+                                        <circle cx="12" cy="8" r="6"></circle>
+                                    </svg>
+                                    <span>R$ 25-40</span>
+                                </div>
+                            </div>
+                            <p class="descricao">Harmoniza com: Massas com molho vermelho</p>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="recomendacoes__cards__card">
+                    <img src="./assets/recomendacoes/tacas.jpg" alt="">
+                    <article>
+                        <div class="titulo">
+                            <div class="titulo-status">
+                                <h1>Prosecco Artesanal</h1>
+                                <div class="status"></div>
+                                <span>Excelente</span>
+                            </div>
+                            <h2>Vale dos Vinhedos, RS</h2>
+                        </div>
+                        <div class="corpo">
+                            <p class="descricao">
+                                Espumante elegante com borbulhamento fino
+                            </p>
+                            <div class="tags">
+                                <span class="tag">Espumante</span>
+                                <span class="tag">Celebração</span>
+                            </div>
+                            <div class="temperatura-preco">
+                                <div class="temperatura">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        class="lucide lucide-thermometer h-4 w-4 text-muted-foreground"
+                                        aria-hidden="true">
+                                        <path d="M14 4v10.54a4 4 0 1 1-4 0V4a2 2 0 0 1 4 0Z"></path>
+                                    </svg>
+                                    <span>6-8°C</span>
+                                </div>
+                                <div class="preco">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        class="lucide lucide-award h-4 w-4 text-muted-foreground" aria-hidden="true">
+                                        <path
+                                            d="m15.477 12.89 1.515 8.526a.5.5 0 0 1-.81.47l-3.58-2.687a1 1 0 0 0-1.197 0l-3.586 2.686a.5.5 0 0 1-.81-.469l1.514-8.526">
+                                        </path>
+                                        <circle cx="12" cy="8" r="6"></circle>
+                                    </svg>
+                                    <span>R$ 40-60</span>
+                                </div>
+                            </div>
+                            <p class="descricao">Harmoniza com: Aperitivos e sobremesas</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="como-conservar">
+            <header>
+                <h1>Como Conservar Seus Vinhos</h1>
+                <h2>Aprenda as técnicas essenciais para manter a qualidade dos seus vinhos</h2>
+            </header>
+            <article>
+                <p>Por que a conservação é importante?</p>
+                <p>No Brasil, o clima quente é um grande desafio para a conservação de vinhos. Temperatura, luz e
+                    vibração inadequadas podem:</p>
+                <ul>
+                    <li>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="lucide lucide-circle-x h-4 w-4 text-destructive" aria-hidden="true">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <path d="m15 9-6 6"></path>
+                            <path d="m9 9 6 6"></path>
+                        </svg>
+                        Acelerar o envelhecimento
+                    </li>
+                    <li>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="lucide lucide-circle-x h-4 w-4 text-destructive" aria-hidden="true">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <path d="m15 9-6 6"></path>
+                            <path d="m9 9 6 6"></path>
+                        </svg>
+                        Alterar sabor e aroma
+                    </li>
+                    <li>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="lucide lucide-circle-x h-4 w-4 text-destructive" aria-hidden="true">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <path d="m15 9-6 6"></path>
+                            <path d="m9 9 6 6"></path>
+                        </svg>
+                        Causar oxidação prematura
+                    </li>
+                    <li>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="lucide lucide-circle-x h-4 w-4 text-destructive" aria-hidden="true">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <path d="m15 9-6 6"></path>
+                            <path d="m9 9 6 6"></path>
+                        </svg>
+                        Perder qualidade rapidamente
+                    </li>
+                </ul>
+            </article>
+            <img src="./assets/como-conservar/adega.jpg" alt="">
+            <div class="como-conservar__cards">
+                <div class="como-conservar__cards__card">
+                    <div class="titulo">
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>

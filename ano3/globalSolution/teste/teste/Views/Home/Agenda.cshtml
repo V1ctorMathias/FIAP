@@ -8,21 +8,34 @@
 <div class="agenda">
 
     <div class="agenda-header">
-        <h1>Minha Semana</h1>
-        <p>Organize seu trabalho híbrido</p>
+
+        <div class="titulo">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#2563eb"
+                 stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-calendar w-6 h-6 text-blue-600"
+                 aria-hidden="true">
+                <path d="M8 2v4"></path>
+                <path d="M16 2v4"></path>
+                <rect width="18" height="18" x="3" y="4" rx="2"></rect>
+                <path d="M3 10h18"></path>
+            </svg>
+            <span>Minha Semana</span>
+        </div>
+        <span class="subtitulo">Organize seu trabalho híbrido</span>
     </div>
 
     <div class="agenda-container">
         <div class="day-card">
             <h3>Segunda</h3>
-            <p>13</p>
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
-                 stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                 class="lucide lucide-house w-6 h-6 text-slate-600" aria-hidden="true">
-                <path d="M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8"></path>
-                <path d="M3 10a2 2 0 0 1 .709-1.528l7-5.999a2 2 0 0 1 2.582 0l7 5.999A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
-            </svg>
-            <p>Home Office</p>
+            <span>13</span>
+            <div class="icone">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                     stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                     class="lucide lucide-house w-6 h-6 text-slate-600" aria-hidden="true">
+                    <path d="M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8"></path>
+                    <path d="M3 10a2 2 0 0 1 .709-1.528l7-5.999a2 2 0 0 1 2.582 0l7 5.999A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+                </svg>
+            </div>
+            <span>Home Office</span>
         </div>
         <div class="day-card">
             <h3>Terça</h3>
@@ -44,7 +57,7 @@
                 <path d="M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8"></path>
                 <path d="M3 10a2 2 0 0 1 .709-1.528l7-5.999a2 2 0 0 1 2.582 0l7 5.999A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
             </svg>
-            <p>Home Office</p>
+            <span>Home Office</span>
         </div>
         <div class="day-card">
             <h3>Quinta</h3>
@@ -92,9 +105,7 @@
         </div>
     </div>
 
-    <a>
-        Editar Agenda
-    </a>
-    <a>Reservar Sala</a>
+    
+    <a href="~/Home/Reserva">Reservar Sala</a>
 </div>
 

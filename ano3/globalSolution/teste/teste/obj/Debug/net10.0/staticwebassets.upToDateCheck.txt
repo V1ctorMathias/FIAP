@@ -1,4 +1,5 @@
 wwwroot\css\agenda.css
+wwwroot\css\index.css
 wwwroot\css\site.css
 wwwroot\favicon.ico
 wwwroot\js\site.js
@@ -62,8 +63,10 @@ wwwroot\lib\jquery\dist\jquery.slim.js
 wwwroot\lib\jquery\dist\jquery.slim.min.js
 wwwroot\lib\jquery\dist\jquery.slim.min.map
 wwwroot\lib\jquery\LICENSE.txt
-wwwroot\css\index.css
+wwwroot\css\reserva.css
 C:\Users\Victor\Documents\GitHub\FIAP\ano3\globalSolution\teste\teste\wwwroot\css\agenda.css
+C:\Users\Victor\Documents\GitHub\FIAP\ano3\globalSolution\teste\teste\wwwroot\css\index.css
+C:\Users\Victor\Documents\GitHub\FIAP\ano3\globalSolution\teste\teste\wwwroot\css\site.css
 C:\Users\Victor\Documents\GitHub\FIAP\ano3\globalSolution\teste\teste\wwwroot\favicon.ico
 C:\Users\Victor\Documents\GitHub\FIAP\ano3\globalSolution\teste\teste\wwwroot\js\site.js
 C:\Users\Victor\Documents\GitHub\FIAP\ano3\globalSolution\teste\teste\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
@@ -125,5 +128,4 @@ C:\Users\Victor\Documents\GitHub\FIAP\ano3\globalSolution\teste\teste\wwwroot\li
 C:\Users\Victor\Documents\GitHub\FIAP\ano3\globalSolution\teste\teste\wwwroot\lib\jquery\dist\jquery.slim.min.js
 C:\Users\Victor\Documents\GitHub\FIAP\ano3\globalSolution\teste\teste\wwwroot\lib\jquery\dist\jquery.slim.min.map
 C:\Users\Victor\Documents\GitHub\FIAP\ano3\globalSolution\teste\teste\wwwroot\lib\jquery\LICENSE.txt
-C:\Users\Victor\Documents\GitHub\FIAP\ano3\globalSolution\teste\teste\wwwroot\css\site.css
-C:\Users\Victor\Documents\GitHub\FIAP\ano3\globalSolution\teste\teste\wwwroot\css\index.css
+C:\Users\Victor\Documents\GitHub\FIAP\ano3\globalSolution\teste\teste\wwwroot\css\reserva.css

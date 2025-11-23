@@ -1,0 +1,171 @@
+﻿@{
+    ViewData["Title"] = "Reserva";
+}
+
+<link rel="stylesheet" href="~/css/reserva.css" asp-append-version="true" />
+
+<header>
+
+    <a href="~/Home/Agenda" class="voltar">← Voltar</a>
+
+    <div style="margin-bottom: 8px;">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+             viewBox="0 0 24 24" fill="none" stroke="#2563eb"
+             stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+             class="lucide lucide-door-open w-5 h-5 text-blue-600" aria-hidden="true">
+            <path d="M11 20H2"></path>
+            <path d="M11 4.562v16.157a1 1 0 0 0 1.242.97L19 20V5.562a2 2 0 0 0-1.515-1.94l-4-1A2 2 0 0 0 11 4.561z"></path>
+            <path d="M11 4H8a2 2 0 0 0-2 2v14">
+            </path>
+            <path d="M14 12h.01"></path>
+            <path d="M22 20h-3"></path>
+        </svg>
+        <b>Reservar Sala</b>
+    </div>
+
+    <span style="color: oklch(.45 .05 261.204);">Escolha a sala ideal para sua reunião</span>
+
+</header>
+
+<div class="card-grid">
+
+    <div class="card">
+        <div class="row1">
+            <div class="row1__header">
+                <span style="font: 18px;"><b>Sala 1</b></span>
+                <span>09:00 - 12:00</span>
+            </div>
+            <div class="icone">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                     viewBox="0 0 24 24" fill="none" stroke="#2563eb"
+                     stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                     class="lucide lucide-door-open w-5 h-5 text-blue-600" aria-hidden="true">
+                    <path d="M11 20H2"></path>
+                    <path d="M11 4.562v16.157a1 1 0 0 0 1.242.97L19 20V5.562a2 2 0 0 0-1.515-1.94l-4-1A2 2 0 0 0 11 4.561z"></path>
+                    <path d="M11 4H8a2 2 0 0 0-2 2v14">
+                    </path>
+                    <path d="M14 12h.01"></path>
+                    <path d="M22 20h-3"></path>
+                </svg>
+            </div>
+        </div>
+
+        <div class="dados">
+            <div class="dados-texto">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-thermometer w-4 h-4" aria-hidden="true"><path d="M14 4v10.54a4 4 0 1 1-4 0V4a2 2 0 0 1 4 0Z"></path></svg>
+                24°C
+            </div>
+            <div class="dados-texto">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-users w-4 h-4" aria-hidden="true"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path><path d="M16 3.128a4 4 0 0 1 0 7.744"></path><path d="M22 21v-2a4 4 0 0 0-3-3.87"></path><circle cx="9" cy="7" r="4"></circle></svg>
+                30%
+            </div>
+        </div>
+
+        <button><b>Reservar</b></button>
+    </div>
+
+    <div class="card">
+        <div class="row1">
+            <div class="row1__header">
+                <span style="font: 18px;"><b>Sala 2</b></span>
+                <span>14:00 - 17:00</span>
+            </div>
+            <div class="icone">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                     viewBox="0 0 24 24" fill="none" stroke="#2563eb"
+                     stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                     class="lucide lucide-door-open w-5 h-5 text-blue-600" aria-hidden="true">
+                    <path d="M11 20H2"></path>
+                    <path d="M11 4.562v16.157a1 1 0 0 0 1.242.97L19 20V5.562a2 2 0 0 0-1.515-1.94l-4-1A2 2 0 0 0 11 4.561z"></path>
+                    <path d="M11 4H8a2 2 0 0 0-2 2v14">
+                    </path>
+                    <path d="M14 12h.01"></path>
+                    <path d="M22 20h-3"></path>
+                </svg>
+            </div>
+        </div>
+
+        <div class="dados">
+            <div class="dados-texto">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-thermometer w-4 h-4" aria-hidden="true"><path d="M14 4v10.54a4 4 0 1 1-4 0V4a2 2 0 0 1 4 0Z"></path></svg>
+                22°C
+            </div>
+            <div class="dados-texto">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-users w-4 h-4" aria-hidden="true"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path><path d="M16 3.128a4 4 0 0 1 0 7.744"></path><path d="M22 21v-2a4 4 0 0 0-3-3.87"></path><circle cx="9" cy="7" r="4"></circle></svg>
+                50%
+            </div>
+        </div>
+
+        <button><b>Reservar</b></button>
+    </div>
+
+    <div class="card">
+        <div class="row1">
+            <div class="row1__header">
+                <span style="font: 18px;"><b>Sala 3</b></span>
+                <span>10:00 - 13:00</span>
+            </div>
+            <div class="icone">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                     viewBox="0 0 24 24" fill="none" stroke="#2563eb"
+                     stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                     class="lucide lucide-door-open w-5 h-5 text-blue-600" aria-hidden="true">
+                    <path d="M11 20H2"></path>
+                    <path d="M11 4.562v16.157a1 1 0 0 0 1.242.97L19 20V5.562a2 2 0 0 0-1.515-1.94l-4-1A2 2 0 0 0 11 4.561z"></path>
+                    <path d="M11 4H8a2 2 0 0 0-2 2v14">
+                    </path>
+                    <path d="M14 12h.01"></path>
+                    <path d="M22 20h-3"></path>
+                </svg>
+            </div>
+        </div>
+
+        <div class="dados">
+            <div class="dados-texto">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-thermometer w-4 h-4" aria-hidden="true"><path d="M14 4v10.54a4 4 0 1 1-4 0V4a2 2 0 0 1 4 0Z"></path></svg>
+                23°C
+            </div>
+            <div class="dados-texto">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-users w-4 h-4" aria-hidden="true"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path><path d="M16 3.128a4 4 0 0 1 0 7.744"></path><path d="M22 21v-2a4 4 0 0 0-3-3.87"></path><circle cx="9" cy="7" r="4"></circle></svg>
+                20%
+            </div>
+        </div>
+
+        <button><b>Reservar</b></button>
+    </div>
+
+    <div class="card">
+        <div class="row1">
+            <div class="row1__header">
+                <span style="font: 18px;"><b>Sala 4</b></span>
+                <span>08:00 - 11:00</span>
+            </div>
+            <div class="icone">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                     viewBox="0 0 24 24" fill="none" stroke="#2563eb"
+                     stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                     class="lucide lucide-door-open w-5 h-5 text-blue-600" aria-hidden="true">
+                    <path d="M11 20H2"></path>
+                    <path d="M11 4.562v16.157a1 1 0 0 0 1.242.97L19 20V5.562a2 2 0 0 0-1.515-1.94l-4-1A2 2 0 0 0 11 4.561z"></path>
+                    <path d="M11 4H8a2 2 0 0 0-2 2v14">
+                    </path>
+                    <path d="M14 12h.01"></path>
+                    <path d="M22 20h-3"></path>
+                </svg>
+            </div>
+        </div>
+
+        <div class="dados">
+            <div class="dados-texto">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-thermometer w-4 h-4" aria-hidden="true"><path d="M14 4v10.54a4 4 0 1 1-4 0V4a2 2 0 0 1 4 0Z"></path></svg>
+                25°C
+            </div>
+            <div class="dados-texto">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-users w-4 h-4" aria-hidden="true"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path><path d="M16 3.128a4 4 0 0 1 0 7.744"></path><path d="M22 21v-2a4 4 0 0 0-3-3.87"></path><circle cx="9" cy="7" r="4"></circle></svg>
+                40%
+            </div>
+        </div>
+
+        <button><b>Reservar</b></button>
+    </div>
+</div>

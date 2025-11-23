@@ -94,8 +94,9 @@ C:\Users\Victor\Documents\GitHub\FIAP\ano3\globalSolution\teste\teste\obj\Debug\
 C:\Users\Victor\Documents\GitHub\FIAP\ano3\globalSolution\teste\teste\obj\Debug\net10.0\teste.pdb
 C:\Users\Victor\Documents\GitHub\FIAP\ano3\globalSolution\teste\teste\obj\Debug\net10.0\teste.genruntimeconfig.cache
 C:\Users\Victor\Documents\GitHub\FIAP\ano3\globalSolution\teste\teste\obj\Debug\net10.0\ref\teste.dll
-C:\Users\Victor\Documents\GitHub\FIAP\ano3\globalSolution\teste\teste\obj\Debug\net10.0\compressed\2nss7zu6ap-{0}-vig6smzylq-vig6smzylq.gz
 C:\Users\Victor\Documents\GitHub\FIAP\ano3\globalSolution\teste\teste\obj\Debug\net10.0\compressed\wkn3lo7afl-{0}-a084l89ixm-a084l89ixm.gz
 C:\Users\Victor\Documents\GitHub\FIAP\ano3\globalSolution\teste\teste\obj\Debug\net10.0\compressed\cec6n7and8-{0}-krbjbu0b45-krbjbu0b45.gz
 C:\Users\Victor\Documents\GitHub\FIAP\ano3\globalSolution\teste\teste\obj\Debug\net10.0\compressed\sf2h4fviqp-{0}-769ujhiqvx-769ujhiqvx.gz
 C:\Users\Victor\Documents\GitHub\FIAP\ano3\globalSolution\teste\teste\obj\Debug\net10.0\compressed\u0r2pjd09f-{0}-769ujhiqvx-769ujhiqvx.gz
+C:\Users\Victor\Documents\GitHub\FIAP\ano3\globalSolution\teste\teste\obj\Debug\net10.0\compressed\2nss7zu6ap-{0}-pyr33jhkom-pyr33jhkom.gz
+C:\Users\Victor\Documents\GitHub\FIAP\ano3\globalSolution\teste\teste\obj\Debug\net10.0\compressed\1bcybrix8l-{0}-0tjtqmq0tf-0tjtqmq0tf.gz

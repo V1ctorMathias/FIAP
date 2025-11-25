@@ -1,0 +1,39 @@
+﻿main {
+    height: 100dvh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    form {
+        a {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    main {
+        padding: 0 20px;
+
+        form {
+            width: 100%;
+            max-width: 421.6px;
+
+            label {
+                width: 100%;
+
+                input {
+                    width: 100%;
+                }
+            }
+
+            input {
+                width: 100%;
+            }
+        }
+    }
+}

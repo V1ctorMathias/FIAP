@@ -3,8 +3,56 @@
   "WorkspaceRootPath": "C:\\Users\\Victor\\Documents\\GitHub\\FIAP\\ano3\\globalSolution\\hybridFlow\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{46F94121-9146-7738-04AB-CF6591008EFB}|teste\\teste.csproj|c:\\users\\victor\\documents\\github\\fiap\\ano3\\globalsolution\\hybridflow\\teste\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{46F94121-9146-7738-04AB-CF6591008EFB}|teste\\teste.csproj|solutionrelative:teste\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{46F94121-9146-7738-04AB-CF6591008EFB}|teste\\teste.csproj|c:\\users\\victor\\documents\\github\\fiap\\ano3\\globalsolution\\hybridflow\\teste\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46F94121-9146-7738-04AB-CF6591008EFB}|teste\\teste.csproj|solutionrelative:teste\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46F94121-9146-7738-04AB-CF6591008EFB}|teste\\teste.csproj|c:\\users\\victor\\documents\\github\\fiap\\ano3\\globalsolution\\hybridflow\\teste\\controllers\\salacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46F94121-9146-7738-04AB-CF6591008EFB}|teste\\teste.csproj|solutionrelative:teste\\controllers\\salacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46F94121-9146-7738-04AB-CF6591008EFB}|teste\\teste.csproj|c:\\users\\victor\\documents\\github\\fiap\\ano3\\globalsolution\\hybridflow\\teste\\models\\sala.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46F94121-9146-7738-04AB-CF6591008EFB}|teste\\teste.csproj|solutionrelative:teste\\models\\sala.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46F94121-9146-7738-04AB-CF6591008EFB}|teste\\teste.csproj|c:\\users\\victor\\documents\\github\\fiap\\ano3\\globalsolution\\hybridflow\\teste\\services\\firebaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46F94121-9146-7738-04AB-CF6591008EFB}|teste\\teste.csproj|solutionrelative:teste\\services\\firebaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46F94121-9146-7738-04AB-CF6591008EFB}|teste\\teste.csproj|c:\\users\\victor\\documents\\github\\fiap\\ano3\\globalsolution\\hybridflow\\teste\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46F94121-9146-7738-04AB-CF6591008EFB}|teste\\teste.csproj|solutionrelative:teste\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46F94121-9146-7738-04AB-CF6591008EFB}|teste\\teste.csproj|c:\\users\\victor\\documents\\github\\fiap\\ano3\\globalsolution\\hybridflow\\teste\\models\\sensor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46F94121-9146-7738-04AB-CF6591008EFB}|teste\\teste.csproj|solutionrelative:teste\\models\\sensor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46F94121-9146-7738-04AB-CF6591008EFB}|teste\\teste.csproj|c:\\users\\victor\\documents\\github\\fiap\\ano3\\globalsolution\\hybridflow\\teste\\controllers\\sensorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46F94121-9146-7738-04AB-CF6591008EFB}|teste\\teste.csproj|solutionrelative:teste\\controllers\\sensorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46F94121-9146-7738-04AB-CF6591008EFB}|teste\\teste.csproj|c:\\users\\victor\\documents\\github\\fiap\\ano3\\globalsolution\\hybridflow\\teste\\services\\sensorsimulador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46F94121-9146-7738-04AB-CF6591008EFB}|teste\\teste.csproj|solutionrelative:teste\\services\\sensorsimulador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46F94121-9146-7738-04AB-CF6591008EFB}|teste\\teste.csproj|c:\\users\\victor\\documents\\github\\fiap\\ano3\\globalsolution\\hybridflow\\teste\\controllers\\reservacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46F94121-9146-7738-04AB-CF6591008EFB}|teste\\teste.csproj|solutionrelative:teste\\controllers\\reservacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46F94121-9146-7738-04AB-CF6591008EFB}|teste\\teste.csproj|c:\\users\\victor\\documents\\github\\fiap\\ano3\\globalsolution\\hybridflow\\teste\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46F94121-9146-7738-04AB-CF6591008EFB}|teste\\teste.csproj|solutionrelative:teste\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46F94121-9146-7738-04AB-CF6591008EFB}|teste\\teste.csproj|c:\\users\\victor\\documents\\github\\fiap\\ano3\\globalsolution\\hybridflow\\teste\\models\\reserva.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46F94121-9146-7738-04AB-CF6591008EFB}|teste\\teste.csproj|solutionrelative:teste\\models\\reserva.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46F94121-9146-7738-04AB-CF6591008EFB}|teste\\teste.csproj|c:\\users\\victor\\documents\\github\\fiap\\ano3\\globalsolution\\hybridflow\\teste\\teste.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{46F94121-9146-7738-04AB-CF6591008EFB}|teste\\teste.csproj|solutionrelative:teste\\teste.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46F94121-9146-7738-04AB-CF6591008EFB}|teste\\teste.csproj|c:\\users\\victor\\documents\\github\\fiap\\ano3\\globalsolution\\hybridflow\\teste\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{46F94121-9146-7738-04AB-CF6591008EFB}|teste\\teste.csproj|solutionrelative:teste\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{46F94121-9146-7738-04AB-CF6591008EFB}|teste\\teste.csproj|c:\\users\\victor\\documents\\github\\fiap\\ano3\\globalsolution\\hybridflow\\teste\\views\\home\\agenda.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -13,22 +61,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{46F94121-9146-7738-04AB-CF6591008EFB}|teste\\teste.csproj|c:\\users\\victor\\documents\\github\\fiap\\ano3\\globalsolution\\hybridflow\\teste\\views\\home\\reserva.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{46F94121-9146-7738-04AB-CF6591008EFB}|teste\\teste.csproj|solutionrelative:teste\\views\\home\\reserva.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{46F94121-9146-7738-04AB-CF6591008EFB}|teste\\teste.csproj|c:\\users\\victor\\documents\\github\\fiap\\ano3\\globalsolution\\hybridflow\\teste\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{46F94121-9146-7738-04AB-CF6591008EFB}|teste\\teste.csproj|solutionrelative:teste\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{46F94121-9146-7738-04AB-CF6591008EFB}|teste\\teste.csproj|c:\\users\\victor\\documents\\github\\fiap\\ano3\\globalsolution\\hybridflow\\teste\\wwwroot\\css\\reserva.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{46F94121-9146-7738-04AB-CF6591008EFB}|teste\\teste.csproj|solutionrelative:teste\\wwwroot\\css\\reserva.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{46F94121-9146-7738-04AB-CF6591008EFB}|teste\\teste.csproj|c:\\users\\victor\\documents\\github\\fiap\\ano3\\globalsolution\\hybridflow\\teste\\wwwroot\\css\\agenda.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{46F94121-9146-7738-04AB-CF6591008EFB}|teste\\teste.csproj|solutionrelative:teste\\wwwroot\\css\\agenda.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{46F94121-9146-7738-04AB-CF6591008EFB}|teste\\teste.csproj|c:\\users\\victor\\documents\\github\\fiap\\ano3\\globalsolution\\hybridflow\\teste\\wwwroot\\js\\index.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{46F94121-9146-7738-04AB-CF6591008EFB}|teste\\teste.csproj|solutionrelative:teste\\wwwroot\\js\\index.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,11 +70,167 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SalaController.cs",
+              "DocumentMoniker": "C:\\Users\\Victor\\Documents\\GitHub\\FIAP\\ano3\\globalSolution\\hybridFlow\\teste\\Controllers\\SalaController.cs",
+              "RelativeDocumentMoniker": "teste\\Controllers\\SalaController.cs",
+              "ToolTip": "C:\\Users\\Victor\\Documents\\GitHub\\FIAP\\ano3\\globalSolution\\hybridFlow\\teste\\Controllers\\SalaController.cs",
+              "RelativeToolTip": "teste\\Controllers\\SalaController.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwCIAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-28T03:57:09.308Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "Sala.cs",
+              "DocumentMoniker": "C:\\Users\\Victor\\Documents\\GitHub\\FIAP\\ano3\\globalSolution\\hybridFlow\\teste\\Models\\Sala.cs",
+              "RelativeDocumentMoniker": "teste\\Models\\Sala.cs",
+              "ToolTip": "C:\\Users\\Victor\\Documents\\GitHub\\FIAP\\ano3\\globalSolution\\hybridFlow\\teste\\Models\\Sala.cs",
+              "RelativeToolTip": "teste\\Models\\Sala.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-28T03:55:31.799Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SensorController.cs",
+              "DocumentMoniker": "C:\\Users\\Victor\\Documents\\GitHub\\FIAP\\ano3\\globalSolution\\hybridFlow\\teste\\Controllers\\SensorController.cs",
+              "RelativeDocumentMoniker": "teste\\Controllers\\SensorController.cs",
+              "ToolTip": "C:\\Users\\Victor\\Documents\\GitHub\\FIAP\\ano3\\globalSolution\\hybridFlow\\teste\\Controllers\\SensorController.cs",
+              "RelativeToolTip": "teste\\Controllers\\SensorController.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAA2wB8AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-28T03:38:41.171Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Victor\\Documents\\GitHub\\FIAP\\ano3\\globalSolution\\hybridFlow\\teste\\Program.cs",
+              "RelativeDocumentMoniker": "teste\\Program.cs",
+              "ToolTip": "C:\\Users\\Victor\\Documents\\GitHub\\FIAP\\ano3\\globalSolution\\hybridFlow\\teste\\Program.cs*",
+              "RelativeToolTip": "teste\\Program.cs*",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-28T03:33:16.614Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SensorSimulador.cs",
+              "DocumentMoniker": "C:\\Users\\Victor\\Documents\\GitHub\\FIAP\\ano3\\globalSolution\\hybridFlow\\teste\\Services\\SensorSimulador.cs",
+              "RelativeDocumentMoniker": "teste\\Services\\SensorSimulador.cs",
+              "ToolTip": "C:\\Users\\Victor\\Documents\\GitHub\\FIAP\\ano3\\globalSolution\\hybridFlow\\teste\\Services\\SensorSimulador.cs",
+              "RelativeToolTip": "teste\\Services\\SensorSimulador.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-28T03:28:23.083Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ReservaController.cs",
+              "DocumentMoniker": "C:\\Users\\Victor\\Documents\\GitHub\\FIAP\\ano3\\globalSolution\\hybridFlow\\teste\\Controllers\\ReservaController.cs",
+              "RelativeDocumentMoniker": "teste\\Controllers\\ReservaController.cs",
+              "ToolTip": "C:\\Users\\Victor\\Documents\\GitHub\\FIAP\\ano3\\globalSolution\\hybridFlow\\teste\\Controllers\\ReservaController.cs",
+              "RelativeToolTip": "teste\\Controllers\\ReservaController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-28T01:06:03.53Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UsuarioController.cs",
+              "DocumentMoniker": "C:\\Users\\Victor\\Documents\\GitHub\\FIAP\\ano3\\globalSolution\\hybridFlow\\teste\\Controllers\\UsuarioController.cs",
+              "RelativeDocumentMoniker": "teste\\Controllers\\UsuarioController.cs",
+              "ToolTip": "C:\\Users\\Victor\\Documents\\GitHub\\FIAP\\ano3\\globalSolution\\hybridFlow\\teste\\Controllers\\UsuarioController.cs",
+              "RelativeToolTip": "teste\\Controllers\\UsuarioController.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAiwDoAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-28T00:55:56.757Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FirebaseService.cs",
+              "DocumentMoniker": "C:\\Users\\Victor\\Documents\\GitHub\\FIAP\\ano3\\globalSolution\\hybridFlow\\teste\\Services\\FirebaseService.cs",
+              "RelativeDocumentMoniker": "teste\\Services\\FirebaseService.cs",
+              "ToolTip": "C:\\Users\\Victor\\Documents\\GitHub\\FIAP\\ano3\\globalSolution\\hybridFlow\\teste\\Services\\FirebaseService.cs",
+              "RelativeToolTip": "teste\\Services\\FirebaseService.cs",
+              "ViewState": "AgIAAH0AAAAAAAAAAAAiwI8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-28T00:52:19.531Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "teste",
+              "DocumentMoniker": "C:\\Users\\Victor\\Documents\\GitHub\\FIAP\\ano3\\globalSolution\\hybridFlow\\teste\\teste.csproj",
+              "RelativeDocumentMoniker": "teste\\teste.csproj",
+              "ToolTip": "C:\\Users\\Victor\\Documents\\GitHub\\FIAP\\ano3\\globalSolution\\hybridFlow\\teste\\teste.csproj",
+              "RelativeToolTip": "teste\\teste.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-28T00:51:46.234Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Sensor.cs",
+              "DocumentMoniker": "C:\\Users\\Victor\\Documents\\GitHub\\FIAP\\ano3\\globalSolution\\hybridFlow\\teste\\Models\\Sensor.cs",
+              "RelativeDocumentMoniker": "teste\\Models\\Sensor.cs",
+              "ToolTip": "C:\\Users\\Victor\\Documents\\GitHub\\FIAP\\ano3\\globalSolution\\hybridFlow\\teste\\Models\\Sensor.cs",
+              "RelativeToolTip": "teste\\Models\\Sensor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-28T00:50:49.727Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Victor\\Documents\\GitHub\\FIAP\\ano3\\globalSolution\\hybridFlow\\teste\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "teste\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Victor\\Documents\\GitHub\\FIAP\\ano3\\globalSolution\\hybridFlow\\teste\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "teste\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T23:43:07.944Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Reserva.cs",
+              "DocumentMoniker": "C:\\Users\\Victor\\Documents\\GitHub\\FIAP\\ano3\\globalSolution\\hybridFlow\\teste\\Models\\Reserva.cs",
+              "RelativeDocumentMoniker": "teste\\Models\\Reserva.cs",
+              "ToolTip": "C:\\Users\\Victor\\Documents\\GitHub\\FIAP\\ano3\\globalSolution\\hybridFlow\\teste\\Models\\Reserva.cs",
+              "RelativeToolTip": "teste\\Models\\Reserva.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T02:56:16.299Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "Reserva.cshtml",
               "DocumentMoniker": "C:\\Users\\Victor\\Documents\\GitHub\\FIAP\\ano3\\globalSolution\\hybridFlow\\teste\\Views\\Home\\Reserva.cshtml",
               "RelativeDocumentMoniker": "teste\\Views\\Home\\Reserva.cshtml",
@@ -55,84 +243,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 13,
               "Title": "Agenda.cshtml",
               "DocumentMoniker": "C:\\Users\\Victor\\Documents\\GitHub\\FIAP\\ano3\\globalSolution\\hybridFlow\\teste\\Views\\Home\\Agenda.cshtml",
               "RelativeDocumentMoniker": "teste\\Views\\Home\\Agenda.cshtml",
               "ToolTip": "C:\\Users\\Victor\\Documents\\GitHub\\FIAP\\ano3\\globalSolution\\hybridFlow\\teste\\Views\\Home\\Agenda.cshtml",
               "RelativeToolTip": "teste\\Views\\Home\\Agenda.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-11-24T00:53:25.885Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 12,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Victor\\Documents\\GitHub\\FIAP\\ano3\\globalSolution\\hybridFlow\\teste\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "teste\\Views\\Home\\Index.cshtml",
               "ToolTip": "C:\\Users\\Victor\\Documents\\GitHub\\FIAP\\ano3\\globalSolution\\hybridFlow\\teste\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "teste\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-11-20T23:11:17.043Z",
-              "EditorCaption": ""
-            }
-          ]
-        },
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\Victor\\Documents\\GitHub\\FIAP\\ano3\\globalSolution\\hybridFlow\\teste\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "teste\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\Victor\\Documents\\GitHub\\FIAP\\ano3\\globalSolution\\hybridFlow\\teste\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "teste\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-24T23:35:21.294Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "index.js",
-              "DocumentMoniker": "C:\\Users\\Victor\\Documents\\GitHub\\FIAP\\ano3\\globalSolution\\hybridFlow\\teste\\wwwroot\\js\\index.js",
-              "RelativeDocumentMoniker": "teste\\wwwroot\\js\\index.js",
-              "ToolTip": "C:\\Users\\Victor\\Documents\\GitHub\\FIAP\\ano3\\globalSolution\\hybridFlow\\teste\\wwwroot\\js\\index.js",
-              "RelativeToolTip": "teste\\wwwroot\\js\\index.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-11-23T22:56:32.964Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "agenda.css",
-              "DocumentMoniker": "C:\\Users\\Victor\\Documents\\GitHub\\FIAP\\ano3\\globalSolution\\hybridFlow\\teste\\wwwroot\\css\\agenda.css",
-              "RelativeDocumentMoniker": "teste\\wwwroot\\css\\agenda.css",
-              "ToolTip": "C:\\Users\\Victor\\Documents\\GitHub\\FIAP\\ano3\\globalSolution\\hybridFlow\\teste\\wwwroot\\css\\agenda.css",
-              "RelativeToolTip": "teste\\wwwroot\\css\\agenda.css",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAqwA8AAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-11-23T22:56:07.708Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "reserva.css",
-              "DocumentMoniker": "C:\\Users\\Victor\\Documents\\GitHub\\FIAP\\ano3\\globalSolution\\hybridFlow\\teste\\wwwroot\\css\\reserva.css",
-              "RelativeDocumentMoniker": "teste\\wwwroot\\css\\reserva.css",
-              "ToolTip": "C:\\Users\\Victor\\Documents\\GitHub\\FIAP\\ano3\\globalSolution\\hybridFlow\\teste\\wwwroot\\css\\reserva.css",
-              "RelativeToolTip": "teste\\wwwroot\\css\\reserva.css",
-              "ViewState": "AgIAAE4AAAAAAAAAAAAAAIIAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-11-24T02:22:42.927Z",
               "EditorCaption": ""
             }
           ]

@@ -333,4 +333,13 @@ C:\Users\Victor\Documents\GitHub\FIAP\ano3\globalSolution\hybridFlow\teste\obj\R
 C:\Users\Victor\Documents\GitHub\FIAP\ano3\globalSolution\hybridFlow\teste\obj\Release\net10.0\win-x86\PubTmp\Out\System.Security.Cryptography.Pkcs.dll
 C:\Users\Victor\Documents\GitHub\FIAP\ano3\globalSolution\hybridFlow\teste\obj\Release\net10.0\win-x86\PubTmp\Out\System.Security.Cryptography.Xml.dll
 C:\Users\Victor\Documents\GitHub\FIAP\ano3\globalSolution\hybridFlow\teste\obj\Release\net10.0\win-x86\PubTmp\Out\System.Threading.RateLimiting.dll
+C:\Users\Victor\Documents\GitHub\FIAP\ano3\globalSolution\hybridFlow\teste\obj\Release\net10.0\win-x86\PubTmp\Out\BCrypt.Net-Next.dll
+C:\Users\Victor\Documents\GitHub\FIAP\ano3\globalSolution\hybridFlow\teste\obj\Release\net10.0\win-x86\PubTmp\Out\Firebase.dll
+C:\Users\Victor\Documents\GitHub\FIAP\ano3\globalSolution\hybridFlow\teste\obj\Release\net10.0\win-x86\PubTmp\Out\LiteDB.dll
+C:\Users\Victor\Documents\GitHub\FIAP\ano3\globalSolution\hybridFlow\teste\obj\Release\net10.0\win-x86\PubTmp\Out\Microsoft.OpenApi.dll
+C:\Users\Victor\Documents\GitHub\FIAP\ano3\globalSolution\hybridFlow\teste\obj\Release\net10.0\win-x86\PubTmp\Out\Newtonsoft.Json.dll
+C:\Users\Victor\Documents\GitHub\FIAP\ano3\globalSolution\hybridFlow\teste\obj\Release\net10.0\win-x86\PubTmp\Out\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Victor\Documents\GitHub\FIAP\ano3\globalSolution\hybridFlow\teste\obj\Release\net10.0\win-x86\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Victor\Documents\GitHub\FIAP\ano3\globalSolution\hybridFlow\teste\obj\Release\net10.0\win-x86\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Victor\Documents\GitHub\FIAP\ano3\globalSolution\hybridFlow\teste\obj\Release\net10.0\win-x86\PubTmp\Out\System.Reactive.dll
 C:\Users\Victor\Documents\GitHub\FIAP\ano3\globalSolution\hybridFlow\teste\obj\Release\net10.0\win-x86\PubTmp\Out\teste.dll

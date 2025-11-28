@@ -431,3 +431,14 @@ C:\Users\Victor\Documents\GitHub\FIAP\ano3\globalSolution\hybridFlow\teste\obj\R
 C:\Users\Victor\Documents\GitHub\FIAP\ano3\globalSolution\hybridFlow\teste\obj\Release\net10.0\win-x86\teste.pdb
 C:\Users\Victor\Documents\GitHub\FIAP\ano3\globalSolution\hybridFlow\teste\obj\Release\net10.0\win-x86\teste.genruntimeconfig.cache
 C:\Users\Victor\Documents\GitHub\FIAP\ano3\globalSolution\hybridFlow\teste\obj\Release\net10.0\win-x86\ref\teste.dll
+C:\Users\Victor\Documents\GitHub\FIAP\ano3\globalSolution\hybridFlow\teste\bin\Release\net10.0\win-x86\BCrypt.Net-Next.dll
+C:\Users\Victor\Documents\GitHub\FIAP\ano3\globalSolution\hybridFlow\teste\bin\Release\net10.0\win-x86\Firebase.dll
+C:\Users\Victor\Documents\GitHub\FIAP\ano3\globalSolution\hybridFlow\teste\bin\Release\net10.0\win-x86\LiteDB.dll
+C:\Users\Victor\Documents\GitHub\FIAP\ano3\globalSolution\hybridFlow\teste\bin\Release\net10.0\win-x86\Microsoft.OpenApi.dll
+C:\Users\Victor\Documents\GitHub\FIAP\ano3\globalSolution\hybridFlow\teste\bin\Release\net10.0\win-x86\Newtonsoft.Json.dll
+C:\Users\Victor\Documents\GitHub\FIAP\ano3\globalSolution\hybridFlow\teste\bin\Release\net10.0\win-x86\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Victor\Documents\GitHub\FIAP\ano3\globalSolution\hybridFlow\teste\bin\Release\net10.0\win-x86\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Victor\Documents\GitHub\FIAP\ano3\globalSolution\hybridFlow\teste\bin\Release\net10.0\win-x86\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Victor\Documents\GitHub\FIAP\ano3\globalSolution\hybridFlow\teste\bin\Release\net10.0\win-x86\System.Reactive.dll
+C:\Users\Victor\Documents\GitHub\FIAP\ano3\globalSolution\hybridFlow\teste\obj\Release\net10.0\win-x86\teste.csproj.AssemblyReference.cache
+C:\Users\Victor\Documents\GitHub\FIAP\ano3\globalSolution\hybridFlow\teste\obj\Release\net10.0\win-x86\teste.MvcApplicationPartsAssemblyInfo.cs

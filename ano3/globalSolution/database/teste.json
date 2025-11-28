@@ -1,0 +1,85 @@
+{
+  "usuarios": {
+    "-usrA1": {
+      "id_original": 1,
+      "nome": "Administrador",
+      "email": "admin@fiap.com",
+      "senha_hash": "hash123",
+      "tipo_usuario": "admin"
+    },
+    "-usrA2": {
+      "id_original": 2,
+      "nome": "Victor",
+      "email": "Victor@fiap.com",
+      "senha_hash": "hash123",
+      "tipo_usuario": "colaborador"
+    },
+    "-usrA3": {
+      "id_original": 3,
+      "nome": "Iago",
+      "email": "Iago@fiap.com",
+      "senha_hash": "hash123",
+      "tipo_usuario": "colaborador"
+    },
+    "-usrA4": {
+      "id_original": 4,
+      "nome": "Joao",
+      "email": "Joao@fiap.com",
+      "senha_hash": "hash123",
+      "tipo_usuario": "colaborador"
+    },
+    "-usrA5": {
+      "id_original": 5,
+      "nome": "Ana Martins",
+      "email": "ana.martins@fiap.com",
+      "senha_hash": "hash123",
+      "tipo_usuario": "colaborador"
+    },
+    "-usrA6": {
+      "id_original": 6,
+      "nome": "Felipe Rocha",
+      "email": "felipe.rocha@fiap.com",
+      "senha_hash": "hash123",
+      "tipo_usuario": "colaborador"
+    },
+    "-usrA7": {
+      "id_original": 7,
+      "nome": "Ricardo Alves",
+      "email": "ricardo.alves@fiap.com",
+      "senha_hash": "hash123",
+      "tipo_usuario": "admin"
+    }
+  },
+
+  "salas": {
+    "-slaA1": { "id_original": 1, "nome": "Sala A1", "capacidade_maxima": 8, "localizacao": "Andar 1" },
+    "-slaA2": { "id_original": 2, "nome": "Sala A2", "capacidade_maxima": 12, "localizacao": "Andar 1" },
+    "-slaA3": { "id_original": 3, "nome": "Sala B1", "capacidade_maxima": 6, "localizacao": "Andar 2" },
+    "-slaA4": { "id_original": 4, "nome": "Sala B2", "capacidade_maxima": 10, "localizacao": "Andar 2" },
+    "-slaA5": { "id_original": 5, "nome": "Sala Reunião Central", "capacidade_maxima": 20, "localizacao": "Andar 3" },
+    "-slaA6": { "id_original": 6, "nome": "Auditório Azul", "capacidade_maxima": 80, "localizacao": "Andar 0" },
+    "-slaA7": { "id_original": 7, "nome": "Sala TI", "capacidade_maxima": 5, "localizacao": "Andar -1" },
+    "-slaA8": { "id_original": 8, "nome": "Sala Criativa", "capacidade_maxima": 15, "localizacao": "Andar 4" }
+  },
+
+  "sensores": {
+    "-snsA1": { "id_sala_original": 1, "temperatura": 22.1, "ocupacao": 3, "atualizado_em": "NOW()" },
+    "-snsA2": { "id_sala_original": 2, "temperatura": 23.4, "ocupacao": 5, "atualizado_em": "NOW()" },
+    "-snsA3": { "id_sala_original": 3, "temperatura": 21.9, "ocupacao": 1, "atualizado_em": "NOW()" },
+    "-snsA4": { "id_sala_original": 4, "temperatura": 24.0, "ocupacao": 2, "atualizado_em": "NOW()" },
+    "-snsA5": { "id_sala_original": 5, "temperatura": 20.8, "ocupacao": 8, "atualizado_em": "NOW()" },
+    "-snsA6": { "id_sala_original": 6, "temperatura": 19.5, "ocupacao": 20, "atualizado_em": "NOW()" },
+    "-snsA7": { "id_sala_original": 7, "temperatura": 22.7, "ocupacao": 4, "atualizado_em": "NOW()" },
+    "-snsA8": { "id_sala_original": 8, "temperatura": 23.2, "ocupacao": 7, "atualizado_em": "NOW()" }
+  },
+
+  "reservas": {
+    "-rsvA1": { "id_usuario_original": 1, "id_sala_original": 1, "data_reserva": "2025-02-01", "horario_inicio": "09:00", "horario_fim": "10:00", "status": "ativa" },
+    "-rsvA2": { "id_usuario_original": 2, "id_sala_original": 2, "data_reserva": "2025-02-01", "horario_inicio": "10:00", "horario_fim": "11:30", "status": "cancelada" },
+    "-rsvA3": { "id_usuario_original": 3, "id_sala_original": 3, "data_reserva": "2025-02-02", "horario_inicio": "14:00", "horario_fim": "16:00", "status": "cancelada" },
+    "-rsvA4": { "id_usuario_original": 4, "id_sala_original": 4, "data_reserva": "2025-02-03", "horario_inicio": "09:00", "horario_fim": "10:30", "status": "ativa" },
+    "-rsvA5": { "id_usuario_original": 5, "id_sala_original": 5, "data_reserva": "2025-02-03", "horario_inicio": "13:00", "horario_fim": "15:00", "status": "ativa" },
+    "-rsvA6": { "id_usuario_original": 6, "id_sala_original": 1, "data_reserva": "2025-02-04", "horario_inicio": "08:00", "horario_fim": "09:00", "status": "cancelada" },
+    "-rsvA7": { "id_usuario_original": 7, "id_sala_original": 2, "data_reserva": "2025-02-04", "horario_inicio": "09:30", "horario_fim": "11:00", "status": "ativa" }
+  }
+}

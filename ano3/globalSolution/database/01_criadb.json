@@ -1,0 +1,16 @@
+{
+  "source_file": "01_criadb.sql",
+  "statements": [
+    {
+      "type": "create_database",
+      "database": "HybridFlow",
+      "raw": "CREATE DATABASE HybridFlow;"
+    },
+    {
+      "type": "use",
+      "database": "HybridFlow",
+      "raw": "USE HybridFlow;"
+    }
+  ],
+  "original_sql": "CREATE DATABASE HybridFlow;\n\nUSE HybridFlow;\n"
+}

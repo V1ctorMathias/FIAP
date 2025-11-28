@@ -204,3 +204,15 @@ C:\Users\Victor\Documents\GitHub\FIAP\ano3\globalSolution\hybridFlow\teste\obj\D
 C:\Users\Victor\Documents\GitHub\FIAP\ano3\globalSolution\hybridFlow\teste\obj\Debug\net10.0\ref\teste.dll
 C:\Users\Victor\Documents\GitHub\FIAP\ano3\globalSolution\hybridFlow\teste\obj\Debug\net10.0\compressed\1bcybrix8l-{0}-lfj4r3wdqj-lfj4r3wdqj.gz
 C:\Users\Victor\Documents\GitHub\FIAP\ano3\globalSolution\hybridFlow\teste\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
+C:\Users\Victor\Documents\GitHub\FIAP\ano3\globalSolution\hybridFlow\teste\bin\Debug\net10.0\Firebase.dll
+C:\Users\Victor\Documents\GitHub\FIAP\ano3\globalSolution\hybridFlow\teste\bin\Debug\net10.0\LiteDB.dll
+C:\Users\Victor\Documents\GitHub\FIAP\ano3\globalSolution\hybridFlow\teste\bin\Debug\net10.0\Newtonsoft.Json.dll
+C:\Users\Victor\Documents\GitHub\FIAP\ano3\globalSolution\hybridFlow\teste\bin\Debug\net10.0\System.Reactive.dll
+C:\Users\Victor\Documents\GitHub\FIAP\ano3\globalSolution\hybridFlow\teste\obj\Debug\net10.0\teste.csproj.AssemblyReference.cache
+C:\Users\Victor\Documents\GitHub\FIAP\ano3\globalSolution\hybridFlow\teste\obj\Debug\net10.0\teste.csproj.Up2Date
+C:\Users\Victor\Documents\GitHub\FIAP\ano3\globalSolution\hybridFlow\teste\bin\Debug\net10.0\Microsoft.OpenApi.dll
+C:\Users\Victor\Documents\GitHub\FIAP\ano3\globalSolution\hybridFlow\teste\bin\Debug\net10.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Victor\Documents\GitHub\FIAP\ano3\globalSolution\hybridFlow\teste\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Victor\Documents\GitHub\FIAP\ano3\globalSolution\hybridFlow\teste\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Victor\Documents\GitHub\FIAP\ano3\globalSolution\hybridFlow\teste\obj\Debug\net10.0\teste.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Victor\Documents\GitHub\FIAP\ano3\globalSolution\hybridFlow\teste\bin\Debug\net10.0\BCrypt.Net-Next.dll

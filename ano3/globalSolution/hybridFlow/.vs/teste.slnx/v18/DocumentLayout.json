@@ -82,8 +82,7 @@
               "RelativeToolTip": "teste\\Controllers\\SalaController.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAxwCIAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-28T03:57:09.308Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-28T03:57:09.308Z"
             },
             {
               "$type": "Document",
@@ -95,8 +94,7 @@
               "RelativeToolTip": "teste\\Models\\Sala.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-28T03:55:31.799Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-28T03:55:31.799Z"
             },
             {
               "$type": "Document",
@@ -108,8 +106,7 @@
               "RelativeToolTip": "teste\\Controllers\\SensorController.cs",
               "ViewState": "AgIAABEAAAAAAAAAAAA2wB8AAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-28T03:38:41.171Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-28T03:38:41.171Z"
             },
             {
               "$type": "Document",
@@ -119,7 +116,7 @@
               "RelativeDocumentMoniker": "teste\\Program.cs",
               "ToolTip": "C:\\Users\\Victor\\Documents\\GitHub\\FIAP\\ano3\\globalSolution\\hybridFlow\\teste\\Program.cs",
               "RelativeToolTip": "teste\\Program.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-28T03:33:16.614Z",
               "EditorCaption": ""
@@ -134,8 +131,7 @@
               "RelativeToolTip": "teste\\Services\\SensorSimulador.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-28T03:28:23.083Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-28T03:28:23.083Z"
             },
             {
               "$type": "Document",
@@ -147,8 +143,7 @@
               "RelativeToolTip": "teste\\Controllers\\ReservaController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-28T01:06:03.53Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-28T01:06:03.53Z"
             },
             {
               "$type": "Document",
@@ -160,8 +155,7 @@
               "RelativeToolTip": "teste\\Controllers\\UsuarioController.cs",
               "ViewState": "AgIAADEAAAAAAAAAAAAiwDoAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-28T00:55:56.757Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-28T00:55:56.757Z"
             },
             {
               "$type": "Document",
@@ -173,21 +167,19 @@
               "RelativeToolTip": "teste\\Services\\FirebaseService.cs",
               "ViewState": "AgIAAH0AAAAAAAAAAAAiwI8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-28T00:52:19.531Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-28T00:52:19.531Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "teste",
+              "Title": "teste.csproj",
               "DocumentMoniker": "C:\\Users\\Victor\\Documents\\GitHub\\FIAP\\ano3\\globalSolution\\hybridFlow\\teste\\teste.csproj",
               "RelativeDocumentMoniker": "teste\\teste.csproj",
               "ToolTip": "C:\\Users\\Victor\\Documents\\GitHub\\FIAP\\ano3\\globalSolution\\hybridFlow\\teste\\teste.csproj",
               "RelativeToolTip": "teste\\teste.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-11-28T00:51:46.234Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-28T00:51:46.234Z"
             },
             {
               "$type": "Document",
@@ -199,8 +191,7 @@
               "RelativeToolTip": "teste\\Models\\Sensor.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-28T00:50:49.727Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-28T00:50:49.727Z"
             },
             {
               "$type": "Document",
@@ -212,8 +203,7 @@
               "RelativeToolTip": "teste\\Controllers\\HomeController.cs",
               "ViewState": "AgIAAA8AAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-27T23:43:07.944Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-27T23:43:07.944Z"
             },
             {
               "$type": "Document",
@@ -225,8 +215,7 @@
               "RelativeToolTip": "teste\\Models\\Reserva.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-27T02:56:16.299Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-27T02:56:16.299Z"
             },
             {
               "$type": "Document",
@@ -238,8 +227,7 @@
               "RelativeToolTip": "teste\\Views\\Home\\Reserva.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-24T02:22:47.618Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-24T02:22:47.618Z"
             },
             {
               "$type": "Document",
@@ -251,8 +239,7 @@
               "RelativeToolTip": "teste\\Views\\Home\\Agenda.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-24T00:53:25.885Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-24T00:53:25.885Z"
             },
             {
               "$type": "Document",
@@ -264,8 +251,7 @@
               "RelativeToolTip": "teste\\Views\\Home\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-20T23:11:17.043Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-20T23:11:17.043Z"
             }
           ]
         }

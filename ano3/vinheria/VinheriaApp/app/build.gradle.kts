@@ -5,7 +5,7 @@ plugins {
 }
 
 android {
-    namespace = "com.vinheriaagnello" // Corrigi o namespace para corresponder ao seu pacote
+    namespace = "com.vinheriaagnello"
     compileSdk = 36
 
     defaultConfig {
@@ -37,9 +37,8 @@ android {
         compose = true
     }
 
-    // PASSO 2: CONFIGURE AS OPÇÕES DO COMPILADOR DO COMPOSE
     composeOptions {
-        kotlinCompilerExtensionVersion = "1.5.8" // Versão compatível com Kotlin 1.9.22
+        kotlinCompilerExtensionVersion = "1.5.8"
     }
 }
 

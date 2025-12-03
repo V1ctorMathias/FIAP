@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e254b54-5acc-40e1-a064-e22511a93091" name="Changes" comment="" />
+    <list default="true" id="6e254b54-5acc-40e1-a064-e22511a93091" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VinheriaApp/app/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/VinheriaApp/app/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VinheriaApp/app/src/androidTest/java/br/com/fiap/vinheria/ProdutoDaoTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/VinheriaApp/app/src/androidTest/java/br/com/fiap/vinheria/ProdutoDaoTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../out/production/FIAP/pom.xml" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,9 +21,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="36BAVbNq8ofNS1pNZfVBi5V1tvp" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -35,7 +40,7 @@
     "cidr.known.project.marker": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Victor/Documents/GitHub/FIAP/ano3/vinheria"
+    "last_opened_file_path": "C:/Users/Iago/AndroidStudioProjects/FIAP/ano3/vinheria"
   }
 }]]></component>
   <component name="TaskManager">

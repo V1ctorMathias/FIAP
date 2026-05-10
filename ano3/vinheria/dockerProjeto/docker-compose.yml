@@ -1,0 +1,18 @@
+networks:
+  vinheria-net:
+    external: true
+
+services:
+  ms-qualidade:
+    build: ./ms-qualidade
+    ports:
+      - "3001:3001"
+    networks:
+      - vinheria-net
+
+  ms-recomendacoes:
+    build: ./ms-recomendacoes
+    ports:
+      - "3002:3002"
+    networks:
+      - vinheria-net

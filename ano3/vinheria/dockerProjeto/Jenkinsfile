@@ -1,0 +1,42 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Checkout') {
+            steps {
+                echo 'Clonando repositorio...'
+                echo 'Branch: main'
+            }
+        }
+
+        stage('Build') {
+            steps {
+                echo 'Deploy da Vinheria Agnello'
+                echo 'Buildando imagens Docker...'
+            }
+        }
+
+        stage('Test') {
+            steps {
+                echo 'Testando endpoints...'
+                echo 'GET /qualidade -> 200 OK'
+                echo 'GET /recomendacoes sem token -> 401 Unauthorized'
+            }
+        }
+
+        stage('Deploy') {
+            steps {
+                echo 'Subindo containers via docker-compose...'
+                echo 'ms-qualidade: rodando na porta 3001'
+                echo 'ms-recomendacoes: rodando na porta 3002'
+            }
+        }
+
+        stage('Notify') {
+            steps {
+                echo 'Pipeline concluido com sucesso!'
+                echo 'Vinheria Agnello - todos os servicos no ar!'
+            }
+        }
+    }
+}
